@@ -1,0 +1,1236 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Conference Paper Index - N.E.W.S. Group</title>
+<style type="text/css">
+body {
+    font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+ul, ol, dl {
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+a img {
+    border: none;
+}
+a:link {
+    color:#414958;
+    text-decoration: underline;
+}
+a:visited {
+    color: #4E5869;
+    text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    max-width: 1100px;
+    min-width: 780px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+.header {
+    background-color: #fff;
+}
+.content {
+    padding: 10px 0;
+}
+.content ul, .content ol, .content dl {
+    padding: 0 15px 15px 40px;
+}
+.footer {
+    padding: 10px 0;
+    background-color: #007fff;
+}
+
+/* Menu styles */
+ul#css3menu1, ul#css3menu1 ul {
+    margin:0; list-style:none; padding:0; background-color:transparent; border-width:0;
+}
+ul#css3menu1 ul {
+    display:none; position:absolute; left:0; top:100%; opacity:0.9;
+    background-color:#529be7;
+    background-image: linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,0.6));
+    border-radius:5px;
+    box-shadow: inset 0px 0px 6px #153b63;
+    padding:0 5px 5px;
+}
+ul#css3menu1 li:hover>* {
+    display:block;
+}
+ul#css3menu1 li {
+    position:relative; display:block; white-space:nowrap; font-size:0; float:left;
+}
+ul#css3menu1 li:hover {
+    z-index:1;
+}
+ul#css3menu1 {
+    font-size:0; width:99%; z-index:999; position:relative; display:inline-block;
+    padding:6px 0.6% 6px 0%; margin:0 0.2%;
+}
+ul#css3menu1>li {
+    margin:0 0% 0 0.6%; width:19%;
+}
+body:first-of-type ul#css3menu1 {
+    display:inline-table; border-spacing:6px 0;
+}
+body:first-of-type ul#css3menu1>li {
+    display:table-cell; float:none;
+}
+ul#css3menu1 ul>li {
+    margin:6px 0 0;
+}
+ul#css3menu1 a {
+    display:block; vertical-align:middle; text-align:left; text-decoration:none;
+    font-size:small; color:#000000; cursor:pointer; padding:7px 14px;
+}
+ul#css3menu1 ul li {
+    float:none; margin:5px 0 0;
+}
+ul#css3menu1 ul a {
+    text-align:left; padding:3px; background-color:transparent; border-radius:5px;
+    font: 14px Trebuchet MS, sans-serif; color:#FFFFFF; text-decoration:none;
+    text-shadow:#5f5f5f 1px 1px 0;
+}
+ul#css3menu1 li:hover>a, ul#css3menu1 li a.pressed {
+    border-style:none; color:#FFFFFF; text-decoration:none;
+}
+ul#css3menu1 img {
+    border:none; vertical-align:middle; margin-right:7px;
+}
+ul#css3menu1 span {
+    display:block; overflow:visible; background-position:right center;
+    background-repeat:no-repeat; padding-right:0px;
+}
+ul#css3menu1 li.topmenu>a {
+    box-shadow:#525252 2px 2px 2px;
+    background-color:#007fff;
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.6),rgba(255,255,255,0));
+    border-radius:9px;
+    font: 18px Trebuchet MS, sans-serif;
+    color:#c9e2ff;
+    text-shadow:#2c2c2c 1px 1px 0;
+}
+ul#css3menu1 li.topmenu:hover>a, ul#css3menu1 li.topmenu a.pressed {
+    box-shadow: 1px 1px 2px #555 inset, 1px 1px 2px #FFF;
+    background-color:#3178D0;
+    background-image: linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,0.6));
+    color:#c9e2ff;
+    text-shadow:#2c2c2c 1px 1px 0;
+}
+ul#css3menu1 ul li:hover>a, ul#css3menu1 ul li a.pressed {
+    background-color:transparent; color:#FFFF00; text-decoration:none;
+    text-shadow:#5f5f5f 1px 1px 0;
+}
+ul#css3menu1>li:nth-of-type(1){width:12%}
+ul#css3menu1>li:nth-of-type(2){width:12%}
+ul#css3menu1>li:nth-of-type(3){width:15%}
+ul#css3menu1>li:nth-of-type(4){width:18%}
+ul#css3menu1>li:nth-of-type(5){width:22%}
+ul#css3menu1>li:nth-of-type(6){width:18%}
+
+/* Page-specific styles */
+.year-nav {
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 0 15px 20px;
+    text-align: center;
+    line-height: 2;
+}
+.year-nav a {
+    padding: 4px 8px;
+    background-color: #007fff;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 2px;
+    display: inline-block;
+    font-size: 14px;
+}
+.year-nav a:hover {
+    background-color: #3178D0;
+}
+.conference-year {
+    margin: 0 0 30px 0;
+    border-bottom: 2px solid #007fff;
+    padding-bottom: 20px;
+}
+.conference-year h2 {
+    color: #007fff;
+    border-left: 4px solid #007fff;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+.paper-count {
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+}
+.paper-list {
+    list-style-type: disc;
+}
+.paper-list li {
+    margin-bottom: 6px;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+.paper-list a {
+    color: #0000cc;
+    font-weight: bold;
+}
+.paper-list .author {
+    color: #555;
+    font-weight: normal;
+    font-style: italic;
+}
+.back-to-top {
+    text-align: right;
+    padding-right: 15px;
+    font-size: 0.85em;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="header">
+<a href="https://www.newsvhf.com"><img src="newsgrp_banner.png" alt="North East Weak Signal Group" width="600" height="380" style="display:block; text-align:center;" /></a>
+
+<ul id="css3menu1" class="topmenu">
+<li class="topmenu"><a href="https://www.newsvhf.com" style="height:21px;line-height:21px;">Home</a></li>
+<li class="topmenu"><a href="#" style="height:21px;line-height:21px;"><span>About</span></a>
+    <ul>
+        <li><a href="https://www.newsvhf.com/about/constitution.html">Constitution &amp; By-Laws</a></li>
+        <li><a href="https://www.newsvhf.com/about/officers.html">Officers &amp; Board of Directors</a></li>
+        <li><a href="https://www.newsvhf.com/membership/roster.htm">Roster</a></li>
+    </ul></li>
+<li class="topmenu"><a href="#" style="height:21px;line-height:21px;"><span>Meetings</span></a>
+    <ul>
+        <li><a href="https://www.newsvhf.com/meetings/infodir.html">Information &amp; Directions</a></li>
+        <li><a href="https://www.newsvhf.com/events.html">Meetings Calendar</a></li>
+        <li><a href="https://www.newsvhf.com/forms/application.pdf">Application for Membership</a></li>
+        <li><a href="https://www.newsvhf.com/membership/memberdues.html">Membership &amp; Dues</a></li>
+        <li><a href="https://www.newsvhf.com/membership/roster.htm">Membership Roster</a></li>
+    </ul></li>
+<li class="topmenu"><a href="https://www.newsvhf.com/newsletter/index.html" style="height:21px;line-height:21px;">Newsletters</a></li>
+<li class="topmenu"><a href="#" style="height:21px;line-height:21px;"><span>THE Conference</span></a>
+    <ul>
+        <li><a href="https://www.newsvhf.com/conference/">General Information</a></li>
+        <li><a href="https://www.newsvhf.com/conference/agenda.html">Agenda</a></li>
+        <li><a href="https://www.newsvhf.com/conference/regpayp.html">Registration</a></li>
+        <li><a href="https://www.newsvhf.com/conference/whoscoming.html">Who&#39;s Coming!</a></li>
+        <li><a href="paper_index.html"><strong>Conference Paper Index</strong></a></li>
+    </ul></li>
+<li class="topmenu"><a href="#" style="height:21px;line-height:21px;"><span>Favorites</span></a>
+    <ul>
+        <li><a href="https://www.newsvhf.com/events.html">Calendar of events</a></li>
+        <li><a href="https://www.newsvhf.com/beacons6.html">50 MHz Beacons</a></li>
+        <li><a href="https://www.newsvhf.com/beacons2.html">144 MHz and up Beacons</a></li>
+        <li><a href="https://www.newsvhf.com/vhf-www.html">VHF links</a></li>
+        <li><a href="https://www.newsvhf.com/quansheng.html">Quansheng info</a></li>
+    </ul></li>
+</ul>
+</div>
+
+<div class="content">
+<h1>Conference Paper Index</h1>
+<p>Complete index of all papers from the Eastern VHF/UHF/Microwave Conference proceedings (2007&ndash;2026).</p>
+
+<div class="year-nav">
+<strong>Jump to year:</strong><br>
+<a href="#year-2026">2026</a> | <a href="#year-2025">2025</a> | <a href="#year-2024">2024</a> | <a href="#year-2023">2023</a> | <a href="#year-2019">2019</a> | <a href="#year-2018">2018</a> | <a href="#year-2017">2017</a> | <a href="#year-2016">2016</a> | <a href="#year-2015">2015</a> | <a href="#year-2014">2014</a> | <a href="#year-2013">2013</a> | <a href="#year-2012">2012</a> | <a href="#year-2011">2011</a> | <a href="#year-2010">2010</a> | <a href="#year-2009">2009</a> | <a href="#year-2008">2008</a> | <a href="#year-2007">2007</a>
+</div>
+
+
+    <div class="conference-year" id="year-2026">
+      <h2>49th Eastern VHF/UHF/Microwave Conference (2026)</h2>
+      <p class="paper-count">14 papers</p>
+      <ul class="paper-list">
+        <li><a href="https://www.newsvhf.com/conference/conf2026/PresPapers/W3CMP-Six_Meter_Rover_Antennas.pdf">6 Meter Rover Antennas</a><span class="author"> &mdash; Chris Patterson, W3CMP</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/PresPapers/W1GHZ-Measuring_Microwave_VSWR_or_Return_Loss.pdf">Measuring VSWR or Return Loss at Microwaves</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/PresPapers/WA4LPR-BMRS_10GHz_Q65_Beacon.pdf">The Blue Ridge Microwave Society 10 GHz Q65/CW Beacon</a><span class="author"> &mdash; Dennis Sweeney, WA4LPR</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/PresPapers/WA1MBA-5_10_24_47GHz_Q65_Beacon_Board.pdf">An Approach to 5.7, 10, 24 and 47 GHz Q65 Mode Beacons</a><span class="author"> &mdash; Tom Williams, WA1MBA</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/PresPapers/W1GHZ&amp;WA1MBA-Qbeacon_Board.pdf">Qbeacon Board</a><span class="author"> &mdash; Paul Wade, W1GHZ, and Tom Williams, WA1MBA</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/PresPapers/K1WHS-VHF_Aurora_in_2026.pdf">VHF Aurora in 2026</a><span class="author"> &mdash; Dave Olean, K1WHS</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/Papers/W1DRF-Cheap-Space-Communications-HRU-2026.pdf">Inexpensive Space Communications</a><span class="author"> &mdash; John McAuliffe, W1DRF</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/Papers/W1GHZ-10GHz_Transverter_and_Pipe-cap_Filter_Improvements.pdf">10GHz Transverter and Pipe-cap Filter Improvements</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/Papers/W1GHZ-Cheap_and_Simple_Preamp.pdf">Cheap and Simple Preamp</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/Papers/W1GHZ-MMIC_Amplifiers_for_5760_MHz_and_Down.pdf">MMIC Amplifiers for 5760 MHz and Down</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/Papers/W1GHZ-Elevation_Patterns_of_Waveguide_Slot_Antennas.pdf">Elevation Patterns of Waveguide Slot Antennas</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/Papers/WA4LPR-Sound_Card_Phase_Noise_Measurement.pdf">Sound_Card_Phase_Noise_Measurement</a><span class="author"> &mdash; Dennis Sweeney, WA4LPR</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/Papers/Spectrum_and_spectral_density_estimation_by_the_Discrete_Fourier_Transform.pdf">Spectrum and spectral density estimation by the Discrete Fourier Transform</a><span class="author"> &mdash; G. Heinzel, A. R�diger, and R. Schilling</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2026/2026_Conference_Supporters.pptx">2026 Conference Supporters</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2025">
+      <h2>48th Eastern VHF/UHF/Microwave Conference (2025)</h2>
+      <p class="paper-count">13 papers</p>
+      <ul class="paper-list">
+        <li><a href="https://www.newsvhf.com/conference/conf2025/PresPapers/W1GHZ-10_GHz_Preamp-Simple_and_Cheap.pdf">Simple and Cheap Preamps for 10 GHz</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/PresPapers/W1GHZ-5760_MHz_Preamp-Simple_and_Cheap.pdf">5760 MHz Preamp</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/PresPapers/N1JEZ-Simple_Synthesizer_Signal_Generator.pdf">Simple Synthesizer Signal Generator</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/PresPapers/AF1T-Looking_at_Loops.pdf">Looking at Loop Antennas</a><span class="author"> &mdash; Dale Clement, AF1T</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/Papers/N1JEZ-Larcan_SSPA.pdf">Larcan TV SSPA Conversion to 432 MHz</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/Papers/WB2VVV-Inexpensive%20222%20Beam.pdf">Getting on 222 MHz? - an Inexpensive 222 Beam</a><span class="author"> &mdash; Chris Fagan, WB2VVV</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/Papers/W1GHZ-GaAsFET_LNA_Bias-Simple_Cheap_and_Fool-resistant.pdf">GaAsFET LNA Bias - Simple, Cheap, and Fool-resistant</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/Papers/W1GHZ-MMIC_Amplifiers_for_10GHz.pdf">MMIC Amplifiers for 10GHz</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/Papers/W1GHZ-Large_W2IMU_Feedhorns_for_Improved_G_over_T_on_Offset_Dishes.pdf">Large W2IMU Feedhorns for Improved G/T on Offset Dishes</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/Papers/W1GHZ-Verifying_Microwave_Receiver_Performance_using_TotalPower.pdf">Verifying Microwave Receiver Performance using TotalPower</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/Workshop/W1GHZ-SUN_GROUND_&amp;_SKY_for%20Microwave_System_Evaluation.pptx">Sun, Sky, &amp; Ground Noise Workshop Slides</a></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/Workshop/W1FKF-1296_Dish_2025.pdf">1296 MHz EME Dish and Sun Noise</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2025/2025_Conference_Supporters.pptx">2025_Conference Supporters</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2024">
+      <h2>47th Eastern VHF/UHF/Microwave Conference (2024)</h2>
+      <p class="paper-count">27 papers</p>
+      <ul class="paper-list">
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/VE3UG-3D_Printed_Optical_Transceiver_Box.pdf">VE3UG-3D Printed Optical Transceiver Box</a><span class="author"> &mdash; Rene Barbeau</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/WA1MBA-IMD_in_Transmitters.pdf">IMD in Transmitters</a><span class="author"> &mdash; Tom Williams, WA1MBA</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/WA3NUF-Fall_Sprint_Update.pdf">Fall Sprint Update</a><span class="author"> &mdash; Phil Miguelez, WA3NUF</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/K6JEY-Comparison_of_Wattmeter_Accuracies_at_1296MHz.pdf">Comparison of Wattmeter Accuracies at 1296MHz</a><span class="author"> &mdash; Doug Millar, K6JEY</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/K6JEY-Data_Logging_with_Modern_Multimeters.pdf">Data Logging with Modern Multimeters</a><span class="author"> &mdash; Doug Millar, K6JEY</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/W1GHZ-Very_Low_Noise_Unconditionally_Stable_MMIC_Amplifiers.pdf">W1GHZ-Very Low Noise Unconditionally Stable MMIC Amplifiers</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/N1JEZ-Surface_Mount_Assembly_with_Toaster_Oven.pdf">Surface Mount Assembly with a Toaster Oven</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/VE3CZO-USB_PresentationApr2024.pdf">Universal Serial Bus Overview</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Slides/VE3CZO-USB_PresentationApr2024.pptx">+ Presentation Slides</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/N2EME-SDR-Working_the_Entire_Band.pdf">SDR-Working the Entire Band</a><span class="author"> &mdash; Paul Newcombe, N2EME</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/N2EMEfiles/N2EME-External_radio_setup_web.pptx">External_radio_setup_web</a></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/N2EMEfiles/N2EME-RTL_Setup_web.pptx">RTL_Setup_web</a></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/N2EMEfiles/N2EME-SDR_Console_setup_web.pptx">SDR_Console_setup_web</a></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/N2EMEfiles/N2EME-VAC_Setup_web.pptx">VAC_Setup_web</a></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/N2EMEfiles/N2EME-WSJT_Setup_web.pptx">WSJT_Setup_web</a><span class="author"> &mdash; Ev Tupis, W2EV</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/W2EV-Exploring_NLOS_Polarization_Anomalies.pdf">LAB: Exploring NLOS Polarization Anomalies</a><span class="author"> &mdash; Ev Tupis, W2EV</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/PresPapers/N1SFE-W9JJ-ARRL_Contest_Program2024.pdf">ARRL Contest Program 2024</a><span class="author"> &mdash; Paul Bourque, N1SFE &amp;amp; Bart Jahnke, W9JJ</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Papers/K7MDL-Remote_Wattmeter_with_Band_Decoder.pdf">Remote Wattmeter with Band Decoder</a><span class="author"> &mdash; Mike Lewis, K7MDL</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Papers/N6IZW-Experimental_wireless_remote_digital_display.pdf">An experimental wireless remote digital display for test equipment</a><span class="author"> &mdash; Kerry Banke, N6IZW</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Papers/W1GHZ-10MHz_Reference_with_GPS_Switch.pdf">10 MHz Reference with GPS Switch</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Papers/W8MQW-The_Tandem_Sampler_at_a_Glance.pdf">W8MQW-The Tandem Sampler at a Glance</a><span class="author"> &mdash; Chuck MacCluer, W8MQW</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Papers/W4YN-DSS_Feed_Horn_for_10G.pdf">DSS Feed Horn for 10 GHz</a><span class="author"> &mdash; Tim O&#x27;Rourke, W4YN</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Papers/W1FKF-Cheap_10Ghz_2watt_Beacon.pdf">Cheap 10 GHz 2watt Beacon</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Papers/WA4LPR-FT736_reference.pdf">FT-736R High Stability GPS Locked Reference</a><span class="author"> &mdash; Dennis Sweeney, WA4LPR</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Workshops/WA1JXR-Intro_to_NanoVNA.pdf">Introduction to the NanoVNA</a><span class="author"> &mdash; Greg Algieri, WA1JXR</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Workshops/WA1JXR-NanoVNA_Measurements.pdf">NanoVNA Measurements</a><span class="author"> &mdash; Greg Algieri, WA1JXR</span></li>
+        <li><a href="http://www.newsvhf.com/conference/conf2024/Workshops/W1GHZ-TinySA_workshop.pdf">tinySA Workshop</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2023">
+      <h2>46th Eastern VHF/UHF/Microwave Conference (2023)</h2>
+      <p class="paper-count">58 papers</p>
+      <ul class="paper-list">
+        <li><a href="https://www.newsvhf.com/conference/conf2023/Proceedings_2023_Table_of_Contents.pdf">Proceedings Book Table of Contents</a><span class="author"> &mdash; Chip Cohen, W1YW</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/W1YW-Bats_Cloaks_Gravity&amp;Morality-the_Invisibilty_Quest.pdf">W1YW-Bats, Cloaks, Gravity, &amp; Morality - the Invisibilty Quest</a><span class="author"> &mdash; Chip Cohen, W1YW</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/KB1QV-Portable_2M_Yagi.pdf">Packing a Two Meter Bell</a><span class="author"> &mdash; Bob Sletten, KB1QV</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/K1WHS-LARCAN_HIGH_VHF_AMPLIFIER_ON_222_MHZ.pdf">222 MHz High-Band Larcan 1500 watt Amplifier</a><span class="author"> &mdash; Dave Olean , K1WHS</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/WA4LPR_INTRFIL-Design_and_Construction_of_Interdigital_Filters.pdf">INTRFIL: Design and Construction of Round Rod Interdigitated Filters</a><span class="author"> &mdash; Dennis Sweeney , WA4LPR</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/WA1MBA_10-12.5GHz_in,40-50GHz_out_Quadrupler-Final_Report.pdf">47 GHz Quadrupler - Final Report</a><span class="author"> &mdash; Tom Williams, WA1MBA</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/Slides/WA1ZMS-47GHz_QRO_Beacon.pptx">47 GHz QRO Beacon -  Powerpoint Slides</a><span class="author"> &mdash; Brian Justin, WA1ZMS</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/W1GHZ-Sectoral_Horn_Antennas_for_Microwave_Beacons.pdf">Sectoral Horn Antennas for Microwave Beacons</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/W4ZST-Some_Ideas_for%20Microwave_Stations.pdf">Some Ideas for Microwave Contest Stations</a><span class="author"> &mdash; Bob Lear, W4ZST</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/VE3CZO-Yaesu_Transverter_Sequencer_in_a_Mini_Din.pdf">Yaesu_Transverter_Sequencer_in_a_Mini_DIN</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/Slides/VE3CZO-FT817_Mimimalist_Transverter_Sequencer_V2-2.pdf">+ Presentation Slides</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/VE3CZO-Mini_DIN_Sequencer_V2-2.zip">additional files</a><span class="author"> &mdash; Chris Cox, N0UK</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/N0UK-Urban_Microwave_DXing.pdf">Urban Microwave DXing</a><span class="author"> &mdash; Chris Cox, N0UK</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/K6JEY-Spectrum_Analyzer_Frequency_Expansion.pdf">Extending Frequency Range of Spectrum Analyzers</a><span class="author"> &mdash; Doug Millar, K6JEY</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/Slides/K6JEY-video%20_Mixer_Talk.mp4">+ Presentation Video</a><span class="author"> &mdash; Doug Millar, K6JEY</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/Slides/WA5VJB-Driven_Elements_and_Yagis.pptx">Driven Elements &amp; Yagi Antennas -  Powerpoint Slides</a><span class="author"> &mdash; Kent Britain, WA5VJB</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/K1UU-50_to_%201296MHz_Station_Build_&amp;_Lessons_Learned.pdf">Building a 50 to 1296 MHz Station &amp; Lessons Learned</a><span class="author"> &mdash; Fred Caswell, K1UU</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/KD2TAI-A_Minimal_Software-Defined_Radio_VHF_UHF_SHF%20Transceiver.pdf">A Minimal Software-Defined Radio VHF/UHF/SHF Transceiver</a><span class="author"> &mdash; Hisen Zhang, KD2TAI</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/K2UA-VHF_CAC_and_Impact_of_Digital_Modes_On_VHF_Contesting.pdf">VHF Contest Rules and VHF/UHF Advisory Committee</a><span class="author"> &mdash; Rus Healy, K2UA</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/K1BYE-ARTEN_Grant_Presentation.pdf">ARTEN Project - New England Mesh Networking</a><span class="author"> &mdash; Paul Fredette, K1YBE</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/W3CMP-Compendium_of_Cushcraft_6meter_Antenna_Modifications.pdf">Compendium of Cushcraft 6 meter Antenna Modifications</a><span class="author"> &mdash; Chris Patterson, W3CMP</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/K1WHS-Television_RFI.pdf">Dealing with RFI from TV stations</a><span class="author"> &mdash; Dave Olean , K1WHS</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/K1NKR-VHF+_Session_at_NE_Convention.pdf">VHF+ at Northeast HamXposition</a><span class="author"> &mdash; Skip Youngberg, K1NKR</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/W1GHZ-Design_of_Optimized_Cassegrain_Antenna_Systems.pdf">Cassegrain Antenna Design and Feedhorns</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/VE2UG-3D_printed_47GHz_Cassegrain_Antenna.pdf">Cassegrain Antennas for 47, 78, &amp; 122 GHz</a><span class="author"> &mdash; Rene Barbeau, VE2UG</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/Slides/G4DBN-3D_Printed_Gradient_Index_RF_Lenses.pptx">3D Printed Gradient Index RF Lenses -   Powerpoint Slides</a><span class="author"> &mdash; Neil Smith, G4DBN</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/KC6QHP-K6JEY-122%20GHz_Experiments_and_Construction.pdf">122 GHz Experiments and Construction</a><span class="author"> &mdash; Tony Long, KC6QHP &amp;amp; Doug Millar, K6JEY</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/WA1MBA-Minimum_Discernable_Signal_Comparison_Signal_Generator.pdf">Minimum Discernable Signal Comparison Signal Generator</a><span class="author"> &mdash; Tom Williams, WA1MBA</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/PresPapers/W9JJ-ARRL_Contest_Program-2023.pdf">ARRL Contests  &amp; Operating Events Update</a><span class="author"> &mdash; Bart Jahnke, W9JJ; Paul Bourque, N1SFE; &amp;amp; Rus Healy, K2UA</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/Slides/WA1VUG-Spectrum_analyzer_as_downconverter.ppt">Spectrum Analyzer as Downconverter -   Powerpoint Slides</a><span class="author"> &mdash; Greg Bonaguide, WA1VUG</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/W5NYV-3D_Printing_and_Metallized_Paint.pdf">Conductive Paint on Polylactic Acid 3D Printed Parts</a><span class="author"> &mdash; Michelle Thompson, W5NYV</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/W1GHZ-10&amp;24_GHz_Dual-band_Feed_Alignment.pdf">10 &amp; 24 GHz Dual-band Feed Alignment</a></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/W8MQW-A_simple_Arduino_AZ-EL_readout.pdf">A simple Arduino-based AZ-EL readout</a><span class="author"> &mdash; Chuck MacCluer, W8MQW</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/W1GHZ-Large_W2IMU_Dual-Mode_Feeds_for_10,47,78,and_122GHz.pdf">Large W2IMU Dual-Mode Feeds for 10, 47, 78, and 122 GHz</a><span class="author"> &mdash; Paul Wade, W1GHZ &amp;amp; Don Twombly, W1FKF</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/W1GHZ-Waveguide_Matching_Plates.pdf">Waveguide Matching Plates</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/AF1T-SHF3456K%20_No-Tune_%20Transverter_Conversion_Notes.pdf">SHF 3456K No-Tune Transverter Conversion Notes</a><span class="author"> &mdash; Dale Clement, AF1T</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/W1GHZ-Periscope_Antenna_Revisited.pdf">Periscope Antenna Revisited - and Performance Demonstrated</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/N1JEZ-EHF_Microwave_Activity_March-1-2023.pdf">EHF Microwave Activity March 1,2023</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/W1GHZ-New_All_Band_Power_Meter.pdf">New All Band Power Meter</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/VA3TO-Motorizing_a_Waveguide_Switch_with_Stepper.pdf">Motorizing a Manual Waveguide Switch with Stepper Motor</a><span class="author"> &mdash; Hugh Duff, VA3TO</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/W5LUA-Packaging_DB6NT_47GHZ_XVTR_and_Testing_Components.pdf">Packaging a DB6NT 47 GHz XVTR Testing Components at 47 GHz</a><span class="author"> &mdash; Al Ward, W5LUA</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/W5LUA_KM5PO-WR-28_Waveguide_Switch_Controller.pdf">WR-28 Wave Guide Switch Controller</a><span class="author"> &mdash; Al Ward, W5LUA &amp;amp; Jim McMasters, KM5PO</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/KC0IYT-Pipe_Coupler_Filters_for_1296MHz.pdf">Pipe Coupler Filters for 1296MHz</a><span class="author"> &mdash; Glen Overby, KC0IYT</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/W1GHZ-Notune_Quarterwatt_Amplifier.pdf">A � Watt No-tune Amplifier for Cheap and Simple Transverters</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/KB6BA-Using_WIPL-D_EM_Simulation_to_Prepare_W2IMU_Feedhorn_for_0.5_f_D_Offset_Dish_&amp;_Adapt_to_WR22_at_47GHz.pdf">WIPL-D EM Simulation of W2IMU Feedhorn at 47 GHz</a><span class="author"> &mdash; Oliver Barrett, KB6BA</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/WA5VJB-G8EMY_External_Mixers.pdf">External Mixers</a><span class="author"> &mdash; Kent Britain, WA5VJB-G8EMY</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/Microwave_Update_2019_Antenna_Range_Results.pdf">Microwave Update 2019 Antenna Range Results</a></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/MUD23/Microwave_Update_2019_Noise_Figure_Results.pdf">Microwave Update 2019 Noise Figure Results</a><span class="author"> &mdash; Chuck MacCluer, W8MQW</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/EVHF/W8MQW_Arduino_sequencer.pdf">An Arduino-based sequencer</a><span class="author"> &mdash; Chuck MacCluer, W8MQW</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/EVHF/WA4LPR-Digital_Display_for_the_Icom_IC202.pdf">Digital Display for the Icom IC202</a><span class="author"> &mdash; Dennis Sweeney, WA4LPR</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/EVHF/W4ZST-Proposal_for_passing_stations_to_other_bands_using_FT8.pdf">A proposal for passing stations to other bands using FT8</a><span class="author"> &mdash; Bob Lear, W4ZST</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/EVHF/W1GHZ-Great_Noise_Figure_but_still_can&#x27;t_hear.pdf">Great Noise Figure but still can&#x27;t hear?</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/EVHF/K5VIP-The_Story_of_an_Ugly_432MHz_Low_Pass_Filter.pdf">The Story of an Ugly 432 MHz Low Pass Filter</a><span class="author"> &mdash; Barry Priddy, K5VIP</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/EVHF/W1GHZ-Miniverter_Mark3.pdf">Miniverter Mark3</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/EVHF/WA4ZRP-Plastic_Yagi_for_6meters.pdf">Ninety-Eight Percent Plastic Yagi Antenna for Six Meters</a><span class="author"> &mdash; Jim Bowen, WA4ZRP</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/EVHF/W1GHZ-Simple_RF_Power_Monitor.pdf">Simple RF Power Monitor</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/EVHF/VE3CZO_Yaesu_FT817_ACC_Jack_Switched_13.8V_Mod.pdf">Yaesu FT-817 ACC Jack Switched +13.8V Mod</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="https://www.newsvhf.com/conference/conf2023/2023papers/EVHF/W5ZN-N0AKC-W5LUA_The_Quest_for_222MHz_WAS.pdf">The Quest for 222 MHz WAS</a><span class="author"> &mdash; Joel Harrison, W5ZN; Charles Betz, N0AKC; &amp;amp; Al Ward, W5LUA</span></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2019">
+      <h2>45th Eastern VHF/UHF/Microwave Conference — Super Conference (2019)</h2>
+      <p class="paper-count">63 papers</p>
+      <ul class="paper-list">
+        <li><a href="2019-45/Introduction/Welcome.pdf">Welcome</a></li>
+        <li><a href="2019-45/Introduction/Conference_Schedule.pdf">Conference Schedule</a></li>
+        <li><a href="2019-45/Introduction/Technical_Presentations_Schedule.pdf">Technical Presentations Schedule</a></li>
+        <li><a href="2019-45/CD_Contents.pdf">Contents of CD</a></li>
+        <li><a href="2019-45/Introduction/Conference_Committees.pdf">2019 Super VHF Conference Committees</a></li>
+        <li><a href="2019-45/Introduction/PackRats.pdf">Mt. Airy VHF Radio Club</a></li>
+        <li><a href="2019-45/Introduction/NEWS.pdf">North East Weak Signal Group</a></li>
+        <li><a href="2019-45/Introduction/SVHFS.pdf">Southeast VHF Society</a></li>
+        <li><a href="2019-45/Introduction/Microwave_Update_2019_Announcement.pdf">Microwave Update 2019 Announcement</a></li>
+        <li><a href="2019-45/Introduction/Speaker_and_Author_Biographies.pdf">Speaker and Author Biographies</a><span class="author"> &mdash; Ken Kent, KA2LIM</span></li>
+        <li><a href="2019-45/Presentation_Papers/KA2LIM-The_Quagi_Revisited.pdf">The Quagi Revisited</a><span class="author"> &mdash; Ken Kent, KA2LIM</span></li>
+        <li><a href="2019-45/Presentation_Papers/K5QE-Large_Vertical_Arrays_for_6M_Contesting.pdf">Large Vertical Arrays for 6M Contesting</a><span class="author"> &mdash; Marshall Williams, K5QE</span></li>
+        <li><a href="2019-45/Presentation_Papers/NW2M-Feeding_and_Phasing_LFA_Antennas.pdf">Feeding and Phasing LFA Antennas</a><span class="author"> &mdash; Al Rabassa, NW2M</span></li>
+        <li><a href="2019-45/Presentation_Papers/WA3ZKR_A_Refresher_on_Antenna_Properties.pdf">A Refresher on Antenna Properties</a><span class="author"> &mdash; Jeff Kruth, WA3ZKR</span></li>
+        <li><a href="2019-45/Presentation_Papers/K2EZ-Contest_Automation_2020.pdf">Contest Automation 2020</a><span class="author"> &mdash; Andrea Slack, K2EZ</span></li>
+        <li><a href="2019-45/Presentation_Papers/K8ZR&amp;W2RMA-The_future_of_VHF-UHF-Microwave_Contesting.pdf">The Future of VHF/UHF/Microwave Contesting</a><span class="author"> &mdash; Tony Emanuele, K8ZR &amp; Bill Koch, W2RMA</span></li>
+        <li><a href="2019-45/Presentation_Papers/KM4KMU-Observations_on_FM_Contesting.pdf">Observations on FM Contesting.  Preparing to win and lessons learned from losing.</a><span class="author"> &mdash; John Young, KM4KMU</span></li>
+        <li><a href="2019-45/Presentation_Papers/W9JJ-2019_ARRL_Contest_Update.pdf">2019 ARRL Contest Update</a><span class="author"> &mdash; Bart Jahnke, W9JJ</span></li>
+        <li><a href="2019-45/Presentation_Papers/WA3NUF-VHF_Contesting_in_the_Age_of_Digital_Disruption.pdf">VHF Contesting in the Age of Digital Disruption</a><span class="author"> &mdash; Phil Miguelez, WA3NUF</span></li>
+        <li><a href="2019-45/Presentation_Papers/KC1HTT-Low_Power,_144_MHz,_Earth-Moon-Earth_Amateur_Radio_Station.pdf">Low Power, 144 MHz, EME Amateur Radio Station</a><span class="author"> &mdash; Bill Keicher, KC1HTT</span></li>
+        <li><a href="2019-45/Supplements/KC1HTT-CALL3.TXT">CALL3.TXT file for JT</a><span class="author"> &mdash; Bill Keicher, KC1HTT</span></li>
+        <li><a href="2019-45/Presentation_Papers/PA0HRK-EME_A_Beginners_Journey.pdf">EME: A Beginners Journey</a><span class="author"> &mdash; Harke Smits, PA0HRK</span></li>
+        <li><a href="2019-45/Presentation_Papers/W4ZST-EME_Misadventures_of_K4SQC_and_W4ZST.pdf">EME misadventures of K4SQC and W4ZST</a><span class="author"> &mdash; Bob Lear, W4ZST</span></li>
+        <li><a href="2019-45/Supplements/W4ZST-The_Adventures_Continue-Additional_pictures.pptx">Additional Photos</a><span class="author"> &mdash; Bob Lear, W4ZST</span></li>
+        <li><a href="2019-45/Presentation_Papers/Grody-Homebuilt _4_12_and_20_GHz_Radiometers.pdf">Homebuilt 4,12  and 20 GHz Microwave Radiometers</a><span class="author"> &mdash; Norman Grody</span></li>
+        <li><a href="2019-45/Presentation_Papers/WA1MBA-Rain_Scatter_SHF_and_EHF.pdf">Rain Scatter, SHF and EHF</a><span class="author"> &mdash; Tom Williams, WA1MBA</span></li>
+        <li><a href="2019-45/Presentation_Papers/K8ZR-78GHz_Fun_in_theArizona_Sun.pdf">78 GHz Fun in the AZ Sun</a><span class="author"> &mdash; Tony Emanuele, K8ZR</span></li>
+        <li><a href="2019-45/Presentation_Papers/KS4VA-3D_Printing_Microwave_Antennas.pdf">3D Printing Microwave Antennas</a><span class="author"> &mdash; Glenn Robb, KS4VA</span></li>
+        <li><a href="2019-45/Presentation_Papers/VE2UG-From_Hills_to_Home_on_10_GHz.pdf">From Hills to Home on 10 GHz</a><span class="author"> &mdash; Rene Barbeau, VE2UG</span></li>
+        <li><a href="2019-45/Supplements/VE2UG_Video">10 GHz Videos and Photos</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2019-45/Presentation_Papers/W1GHZ-Visualizing_Microwaves.pdf">Visualizing Microwaves</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2019-45/Presentation_Papers/K1JT_MSK144,_FT8,_and_Beyond.pdf">MSK144, FT8, and Beyond</a><span class="author"> &mdash; Joe Taylor, K1JT</span></li>
+        <li><a href="2019-45/Presentation_Papers/N3RG-Another_Look_at_Station_Automation.pdf">Another Look at Station Automation</a><span class="author"> &mdash; Ray Golley, N3RG</span></li>
+        <li><a href="2019-45/Presentation_Papers/N6NB_15_Rovers_Large_&amp;_Small.pdf">Fifteen Rovers Large and Small</a><span class="author"> &mdash; Wayne Overbeck, N6NB</span></li>
+        <li><a href="2019-45/Presentation_Papers/AF1T-Optical_Communications.pdf">Optical communications</a><span class="author"> &mdash; Dale Clement, AF1T</span></li>
+        <li><a href="2019-45/Presentation_Papers/K4QF-Impedance_Matching_101.pdf">Impedance Matching 101</a><span class="author"> &mdash; Ben Lowe, K4QF</span></li>
+        <li><a href="2019-45/Presentation_Papers/W3IP-GPS_Disciplined_Oscillators_for_the_VHF_and_up_Ham.pdf">GPS Disciplined Oscillators for the  VHF and up Ham</a><span class="author"> &mdash; Mike Cresap, W3IP</span></li>
+        <li><a href="2019-45/Presentation_Papers/WB4UIV-Grounding_for_Lightning_Protection.pdf">Grounding for Lightning Protection</a><span class="author"> &mdash; Glenn Little, WB4UIV</span></li>
+        <li><a href="2019-45/Presentation_Papers/WB4UIV_Gold_Embrittlement.pdf">Gold Embrittlement</a><span class="author"> &mdash; Glenn Little, WB4UIV</span></li>
+        <li><a href="2019-45/Supplements/WB4UIV_Photos">+ Additional Photos</a><span class="author"> &mdash; Glenn Little, WB4UIV</span></li>
+        <li><a href="2019-45/Contributed_Papers/K0CQ-Waveguide_Calculations.pdf">Waveguide Calculations</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2019-45/Contributed_Papers/K0CQ-Using_WR90_and_WR62_together_for_10GHz.pdf">Using WR90 and WR62 together for 10 GHz</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2019-45/Contributed_Papers/K1DS-Trends_in_EME.pdf">Trends in EME</a><span class="author"> &mdash; Rick Rosen, K1DS</span></li>
+        <li><a href="2019-45/Contributed_Papers/K1DS-AZ-EL_rotor_stand.pdf">AZ-EL rotor stand</a><span class="author"> &mdash; Rick Rosen, K1DS</span></li>
+        <li><a href="2019-45/Contributed_Papers/K1DS-Homebrew_Aluminum_Angle_Mini-Tower.pdf">K1DS-Homebrew Aluminum Angle Mini-Tower</a><span class="author"> &mdash; Rick Rosen, K1DS</span></li>
+        <li><a href="2019-45/Contributed_Papers/KC0Y-TenTec_1208_Conversion_to_28MHz_IF.pdf">TenTec 1208 6 meter Transverter Conversion to 28MHz IF</a><span class="author"> &mdash; Mike Downing, KC0Y</span></li>
+        <li><a href="2019-45/Contributed_Papers/KK7B-2m_Weak_Signal_Sources.pdf">2m Weak Signal Sources</a><span class="author"> &mdash; Rick Campbell KK7B and Daniel Schaeffer</span></li>
+        <li><a href="2019-45/Contributed_Papers/KK7B-Simple_New_Analog-RF_Weak-Signal_Receivers.pdf">Simple New Analog-RF Weak-Signal Receivers</a><span class="author"> &mdash; Rick Campbell KK7B and Katlin Dahn KJ7DMF</span></li>
+        <li><a href="2019-45/Contributed_Papers/N2CEI-Multiband_Receive_Converter.pdf">Multiband Receive Converter</a><span class="author"> &mdash; Steve Kostro, N2CEI</span></li>
+        <li><a href="2019-45/Contributed_Papers/N6NB-From_Spark_to_FT8.pdf">From Spark to FT8</a><span class="author"> &mdash; Wayne Overbeck, N6NB</span></li>
+        <li><a href="2019-45/Contributed_Papers/VE3FHM-Using_DC_to_DC_Converters.pdf">Using DC to DC Converters for Plus and Negative Power Supplies</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2019-45/Contributed_Papers/W1GHZ-432MHz_Transverter_for_an_SDR.pdf">432 MHz Transverter for an SDR</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2019-45/Contributed_Papers/W1GHZ-Modernizing_Microwave_Modules_432MHz_Transverter.pdf">Modernizing Microwave Modules 432 MHz Transverter</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2019-45/Contributed_Papers/W1GHZ-Phase_Noise_Measurements_of_Some_Synthesizers.pdf">Phase Noise Measurements of Some Synthesizers</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2019-45/Contributed_Papers/W2HRO-23cm_EME_Patch_Feed_Construction.pdf">23cm EME - Patch Feed Construction and Mounting Techniques</a><span class="author"> &mdash; Paul Andrews, W2HRO</span></li>
+        <li><a href="2019-45/Contributed_Papers/W2HRO-3m_to_4m_Dish_Extension.pdf">Dish Extension - 3m to 4m Parabola-Stress Hybrid</a><span class="author"> &mdash; Paul Andrews, W2HRO</span></li>
+        <li><a href="2019-45/Contributed_Papers/W2RMA-FT817_Stable_LO_Idea.pdf">An Idea for a FT-817 Stable Local Oscillator for the Rover</a><span class="author"> &mdash; Bill Koch, W2RMA</span></li>
+        <li><a href="2019-45/Contributed_Papers/W5LUA_76_GHz_Transverter_Upgrade.pdf">76 GHz Transverter Upgrade Using the New DB6NT MKU 76 G2 Transverter</a><span class="author"> &mdash; Al Ward, W5LUA</span></li>
+        <li><a href="2019-45/Contributed_Papers/W5LUA_Motorizing_WR-10_&amp;_WR-15_Waveguide_Switches.pdf">Motorizing WR-10 &amp; WR-15 Waveguide Switches</a><span class="author"> &mdash; Al Ward, W5LUA</span></li>
+        <li><a href="2019-45/Contributed_Papers/NEWS_MDS-ERP_2018.pdf">MDS and ERP test results from NEWS picnic 2018</a></li>
+        <li><a href="2019-45/Supplements/2018_NEWS_Picnic">NEWS Picnic 2018 Pictures</a></li>
+        <li><a href="2019-45/Introduction/Conference_Supporters_2019.pdf">List of Sponsors and Contributors</a></li>
+        <li><a href="2019-45/Introduction/Supporter_Logos_2019.pdf">Logos of Sponsors and Contributors</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2018">
+      <h2>44th Eastern VHF/UHF/Microwave Conference (2018)</h2>
+      <p class="paper-count">43 papers</p>
+      <ul class="paper-list">
+        <li><a href="2018-44/Introduction/Welcome.pdf">Welcome</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2018-44/Schedule.pdf">Schedule</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2018-44/Introduction/TOM_KIRBY_MEMORIAL_AWARD.pdf">Tom Kirby Memorial Award</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2018-44/CD_Contents.pdf">Contents of CD</a><span class="author"> &mdash; Bill Koch, W2RMA</span></li>
+        <li><a href="2018-44/Introduction/MUD2018.pdf">Microwave Update 2018 Announcement</a><span class="author"> &mdash; Bill Koch, W2RMA</span></li>
+        <li><a href="2018-44/Presentation_Papers/W2RMA-10_band_Rover_Control_Box.pdf">10 Band Rover Control Box</a><span class="author"> &mdash; Bill Koch, W2RMA</span></li>
+        <li><a href="2018-44/Presentation_Papers/N1JEZ_Experiments_on_122GHz.pdf">Experiments on 122 GHz</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="2018-44/Presentation_Papers/VE2UG-PCOM_RX_Mixer_Hacks.pdf">PCOM RX Mixer Hacks</a><span class="author"> &mdash; Rene Barbeau, VE2UG</span></li>
+        <li><a href="2018-44/Presentation_Papers/N6NB-Obstacle_Gain_2018.pdf">Obstacle Gain: Reinventing the Wheel in 2018</a><span class="author"> &mdash; Wayne Overbeck, N6NB</span></li>
+        <li><a href="2018-44/Presentation_Papers/W9JJ-222_MHz_and_Up_Distance_Contest-Year_1.pdf">ARRL 222 MHz and Up Distance Contest - Year 1 Review</a><span class="author"> &mdash; Bart Jahnke, W9JJ</span></li>
+        <li><a href="2018-44/Presentation_Papers/W9JJ-International_Grid_Chase.pdf">2018 ARRL International Grid Chase Overview</a><span class="author"> &mdash; Bart Jahnke, W9JJ</span></li>
+        <li><a href="2018-44/Presentation_Papers/VE2UG-Finding_sites_with_HeyWhatsThat.pdf">Finding Sites with HeyWhatsThat</a><span class="author"> &mdash; Rene Barbeau, VE2UG</span></li>
+        <li><a href="2018-44/Presentation_Papers/W1GHZ-Simple_and_Cheap_Transverters_Overview.pdf">Simple and Cheap Multiband Microwave Transverters</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2018-44/Presentation_Papers/WA1TE-Why_Not_Go_Roving.pdf">Why Not Go Roving?</a><span class="author"> &mdash; Sean Waite, WA1TE</span></li>
+        <li><a href="2018-44/Presentation_Papers/N6NB-Colorado_Expedition_August2017.pdf">Rocky Mountain High - A Microwave Odyssey</a><span class="author"> &mdash; Wayne Overbeck, N6NB</span></li>
+        <li><a href="2018-44/Presentation_Papers/K8ZR-VHF_Band_Plan_Discussion_FT8.pdf">VHF Band Plan Discussion - WSJT-X FT8</a><span class="author"> &mdash; Tony Emanuele, K8ZR</span></li>
+        <li><a href="2018-44/Presentation_Papers/W1GHZ_Universal_MMIC_Preamp.pdf">Universal MMIC Preamp</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2018-44/Contributed_Papers/K0CQ-8640B_Frequency_Doubler.pdf">HP8640B Frequency Doubler</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2018-44/Contributed_Papers/K0CQ-Identifying_Unknown_Double_Balanced_Mixers.pdf">Identifying the Useful Frequency Range of an Unknown Double Balanced Mixer</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2018-44/Contributed_Papers/K0CQ-Low_Impedance_Parallel_Wire_Transmission_Lines_May2017.pdf">Low Impedance Parallel Wire Transmission Lines</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2018-44/Contributed_Papers/W1FKF-432MHz_ebay_400W_amplifier_modification.pdf">How to Modify E-Bay Amplifier for 432 SSB 400 Watts PEP</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2018-44/Contributed_Papers/W1GHZ-Antenna_Analyzer_Pet_Tricks.pdf">Antenna Analyzer Pet Tricks</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2018-44/Contributed_Papers/W1GHZ-1296_Cheap&amp;Simple_XVTR_Update.pdf">2016 Update and Enhancements for 1296 MHz Transverter - Right Side Up</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2018-44/Contributed_Papers/W1GHZ-Corrections_and_Improvements_for_Simple&amp;Cheap_XVTRs.pdf">Corrections and Improvements for Simple and Cheap Multiband Microwave Transverters</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2018-44/Contributed_Papers/W1GHZ-Smart_Fool-resistant_Conditional_Sequencer.pdf">A Smart Fool-resistant Conditional Sequencer</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2018-44/Contributed_Papers/W1GHZ-Synthesized_Signal_Source_from_China.pdf">Synthesized Signal Source from China</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2018-44/Contributed_Papers/W1GHZ-Update_and_Enhancements_for_902MHz Transverter.pdf">Update and Enhancements for 902 MHz Transverter for the Multiband Rover</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2018-44/Contributed_Papers/W1GHZ-Updating_the_Simple_Low-cost_2304_MHz_Transverter.pdf">Updating the Simple Low-cost 2304 MHz Transverter for the Rover</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2018-44/Contributed_Papers/W2RMA-2304MHz_ 60W_Rover_Amplifier.pdf">2304 MHz 70 W Rover Amplifier</a><span class="author"> &mdash; Bill Koch, W2RMA</span></li>
+        <li><a href="2018-44/Contributed_Papers/MDS_Results_2017.pdf">N.E.W.S. Picnic MDS/ERP Testing 2017</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2018-44/Speaker_Biographies/Bill_Koch_W2RMA.pdf">Bill Koch, W2RMA</a></li>
+        <li><a href="2018-44/Speaker_Biographies/Mike_Seguin_N1JEZ.pdf">Mike Seguin, N1JEZ</a></li>
+        <li><a href="2018-44/Speaker_Biographies/Rene_Barbeau_VE2UG.pdf">Rene Barbeau, VE2UG</a></li>
+        <li><a href="2018-44/Speaker_Biographies/Wayne_Overbeck_N6NB.pdf">Wayne Overbeck, N6NB</a></li>
+        <li><a href="2018-44/Speaker_Biographies/Bart_Jahnke_W9JJ.pdf">Bart Jahnke, W9JJ</a></li>
+        <li><a href="2018-44/Speaker_Biographies/Paul_Wade_W1GHZ.pdf">Paul Wade, W1GHZ</a></li>
+        <li><a href="2018-44/Speaker_Biographies/Sean_Waite_WA1TE.pdf">Sean Waite, WA1TE</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2018-44/Speaker_Biographies/Tony_Emanuele_K8ZR.pdf">Tony Emanuele, K8ZR</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2018-44/Speaker_Biographies/Roger_Rehr_W3SZ.pdf">Roger Rehr, W3SZ</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2018-44/Station_Automation_Symposium/W3SZ-Symposium_Summary.pdf">Station Automation Symposium Summary</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2018-44/NEWS_picnic_2017_photos">NEWS Picnic 2017 Pictures</a></li>
+        <li><a href="2018-44/Introduction/Conference_Supporters_2018.pdf">List of Sponsors and Contributors</a></li>
+        <li><a href="2018-44/Introduction/Supporter_Logos_2018.pdf">Logos of Sponsors and Contributors</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2017">
+      <h2>43rd Eastern VHF/UHF/Microwave Conference (2017)</h2>
+      <p class="paper-count">47 papers</p>
+      <ul class="paper-list">
+        <li><a href="2017-43/Introduction/Welcome.pdf">Welcome to the 43rd Annual Eastern VHF/UHF/Microwave Conference</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2017-43/Schedule.pdf">Schedule</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2017-43/Introduction/TOM_KIRBY_MEMORIAL_AWARD.pdf">Tom Kirby Memorial Award</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2017-43/CD_Contents.pdf">Contents of CD</a><span class="author"> &mdash; Ken Kent, KA2LIM</span></li>
+        <li><a href="2017-43/Presentation_Papers/KA2LIM-Building_a_10GHz_Rover.pdf">Building a 10GHz Rover</a><span class="author"> &mdash; Ken Kent, KA2LIM</span></li>
+        <li><a href="2017-43/Presentation_Papers/KB1VC-Reclaiming_a_Waveguide_Switch_using_3D_Printing.pdf">Reclaiming a Waveguide Switch - An Adventure In 3D Printing</a><span class="author"> &mdash; Matt Reilly, KB1VC</span></li>
+        <li><a href="2017-43/Presentation_Papers/N1JEZ-The_LimeSDR_on_VHF_and_Microwave.pdf">The LimeSDR on VHF &amp; Microwave - First Look</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="2017-43/Presentation_Papers/W1FKF-W1GHZ-Antenna_Analyzer_Pet_Tricks.pdf">Antenna Analyzer Pet Tricks</a><span class="author"> &mdash; Don Twombly, W1FKF, and Paul Wade, W1GHZ</span></li>
+        <li><a href="2017-43/Presentation_Papers/W1GHZ-Simple_and_Cheap_Transverter_for_10GHz.pdf">Simple and Cheap Transverter for 10 GHz</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2017-43/Presentation_Papers/W2RMA-222_MHz_Medium_Power_Amplifier.pdf">222 MHz Medium Power Amplifier</a><span class="author"> &mdash; Bill Koch, W2RMA</span></li>
+        <li><a href="2017-43/Presentation_Papers/W3HMS-The_PA_Microwave_Luncheon_Experience.pdf">The PA Microwave Luncheon Experience</a><span class="author"> &mdash; John Jaminet, W3HMS</span></li>
+        <li><a href="2017-43/Presentation_Papers/W3SZ-Aircraft_Scatter_Update_2017.pdf">Aircraft Scatter on VHF, UHF, and Microwave Frequencies</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2017-43/Presentation_Papers/W9JJ-ARRL_222_MHz_and_Up_Distance_Contest.pdf">222 MHz and Up Distance Contest</a><span class="author"> &mdash; Bart Jahnke, W9JJ</span></li>
+        <li><a href="2017-43/Presentation_Papers/K8ZR-WSJT_X_MSK144_and_VHF_Contesting.pdf">WSJT-X Mode MSK144 and VHF Contesting</a><span class="author"> &mdash; Tony Emanuele, K8ZR</span></li>
+        <li><a href="2017-43/Other_Papers/Grody-Homebuilt_4_GHz_and_12_GHz_radiometers.pdf">Homebuilt 4 and 12 GHz Microwave Radiometers</a><span class="author"> &mdash; Norman Grody</span></li>
+        <li><a href="2017-43/Other_Papers/K0CQ-Frequency_West_brick_are_more_Versatile_than_Advertised.pdf">The Frequency West Brick Are More Versatile than Advertised</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2017-43/Other_Papers/K0CQ-Low_Impedance_Parallel_Wire_Transmission_Lines.pdf">Low Impedance Parallel Wire Transmission Lines</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2017-43/Other_Papers/K0CQ-Microwave_Signal_Sources_for_Receiver_Testing.pdf">Microwave Signal Sources for Receiver Testing</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2017-43/Other_Papers/K0CQ-OE9PMJ_24,47,75.5,and_78_GHz_filter_dimensions.pdf">OE9PMJ 24, 47, 75.5, and 78 GHz Filter Dimensions and Construction</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2017-43/Other_Papers/K0CQ-Short_Multiband_LP_for_Feeding_Parabolic_Reflectors.pdf">Short Multiband LP for Feeding Parabolic Reflectors</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2017-43/Other_Papers/K0CQ-slides_to_accompany_papers.pdf">Slides to Accompany Papers</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2017-43/Other_Papers/K4MSG-A_70cm_500w_SSPA_with_Remote_LNA.pdf">A 70cm 500w SSPA with Remotely-Switched LNA</a><span class="author"> &mdash; Paul Bock, K4MSG</span></li>
+        <li><a href="2017-43/Other_Papers/K4MSG-Helpful_Tips_for_70cm_Small_Station_EME.pdf">Tips for 70cm Small-Station EME</a><span class="author"> &mdash; Paul Bock, K4MSG</span></li>
+        <li><a href="2017-43/Other_Papers/K4MSG-Swivel-Base_Mast_for_Limited_Space_Applications.pdf">Swivel-Base Mast for Portable/Limited-Space VHF/UHF Applications</a><span class="author"> &mdash; Paul Bock, K4MSG</span></li>
+        <li><a href="2017-43/Other_Papers/W1FKF-5760_MHz_3 watt_amplifier.pdf">5.7 GHz 3 W Amplifier -- $30 !</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2017-43/Other_Papers/W1FKF-W1GHZ_10_GHz_Transverter_plus_multiplier_board.pdf">W1GHZ 10 GHz Transverter Plus Multiplier Board</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2017-43/Other_Papers/W1GHZ-Dual-band_Feedhorn_for_AMSAT_Phase_4.pdf">Dual-band Feedhorn for AMSAT Phase 4</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2017-43/Other_Papers/W1GHZ-Understanding_the_OE9PMJ_Microwave_Filter.pdf">Understanding the OE9PMJ Microwave Filter</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2017-43/Other_Papers/W2RMA-A_222_MHz_Portable_Antenna.pdf">A 222 MHz Portable Antenna</a><span class="author"> &mdash; Bill Koch, W2RMA</span></li>
+        <li><a href="2017-43/Other_Papers/W3SZ-AircraftScatterSharp.pdf">AircraftScatterSharp - An Aircraft Scatter Assistance Program for Datahounds</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2017-43/Other_Papers/W3SZ-Collins_Method_for_Troposcatter_Path_Loss.pdf">Computerizing the Collins Method for Determining Troposcatter Path Loss</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2017-43/Other_Papers/W3SZ-TropoScatter_Propagation_for_VHF_UHF_and_Microwaves.pdf">Tropospheric Scatter (Troposcatter) Propagation for VHF, UHF, and Microwave Frequencies</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2017-43/Other_Papers/NEWS_picnic_2016_MDS_testing.pdf">NEWS Picnic 2016 - Microwave Testing: Minimum Discernable Signal and Relative Radiated Power</a><span class="author"> &mdash; KM3G</span></li>
+        <li><a href="2017-43/Workshops/Arduino_Workshop_Files">Arduino Workshop Files by KM3G</a><span class="author"> &mdash; KM3G</span></li>
+        <li><a href="2017-43/Workshops/Microwave_Workshop_Files">Microwaves without a Wheelbarrow of $$$ Workshop Files</a></li>
+        <li><a href="2017-43/Pictures/NEWS_Picnic_2016_photos">NEWS Picnic 2016 Photos</a></li>
+        <li><a href="2017-43/Pictures/Antenna2016_Photos">VHF Super Conference 2016 Photos</a></li>
+        <li><a href="2017-43/Speaker_Biographies/Bart_Jahnke_W9JJ.pdf">Bart Jahnke, W9JJ</a></li>
+        <li><a href="2017-43/Speaker_Biographies/John_Jaminet_W3HMS.pdf">John Jaminet, W3HMS</a></li>
+        <li><a href="2017-43/Speaker_Biographies/Ken_Kent_KA2LIM.pdf">Ken Kent, KA2LIM</a></li>
+        <li><a href="2017-43/Speaker_Biographies/Matt_Reilly_KB1VC.pdf">Matt Reilly, KB1VC</a></li>
+        <li><a href="2017-43/Speaker_Biographies/Mike_Seguin_N1JEZ.pdf">Mike Seguin, N1JEZ</a></li>
+        <li><a href="2017-43/Speaker_Biographies/Paul_Wade_W1GHZ.pdf">Paul Wade, W1GHZ</a></li>
+        <li><a href="2017-43/Speaker_Biographies/Roger_Rehr_W3SZ.pdf">Roger Rehr, W3SZ</a></li>
+        <li><a href="2017-43/Speaker_Biographies/Tony_Emanuele_K8ZR.pdf">Tony Emanuele, K8ZR</a></li>
+        <li><a href="2017-43/Introduction/Conference_Supporters_2017.pdf">List of Sponsors and Contributors</a></li>
+        <li><a href="2017-43/Introduction/Supporter_Logos_2017.pdf">Logos of Sponsors and Contributors</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2016">
+      <h2>42nd Eastern VHF/UHF/Microwave Conference — Super Conference (2016)</h2>
+      <p class="paper-count">72 papers</p>
+      <ul class="paper-list">
+        <li><a href="2016-42/Introduction/Welcome.pdf">Welcome</a></li>
+        <li><a href="2016-42/Introduction/Main_Conference_Schedule.pdf">Conference Schedule</a></li>
+        <li><a href="2016-42/Introduction/Technical_Presentations_Schedule.pdf">Technical Presentations Schedule</a></li>
+        <li><a href="2016-42/Introduction/Forum_and_Workshop Schedule.pdf">Forum &amp; Workshop Schedule</a></li>
+        <li><a href="2016-42/CD_Table_of_Contents.pdf">Contents of CD</a></li>
+        <li><a href="2016-42/Introduction/Dave_Sumner_K1ZZ.pdf">Guest Speaker David Sumner, K1ZZ</a></li>
+        <li><a href="2016-42/Introduction/Conference_Committees.pdf">2016 Super VHF Conference Committees</a></li>
+        <li><a href="2016-42/Introduction/PackRats.pdf">Mt. Airy VHF Radio Club</a></li>
+        <li><a href="2016-42/Introduction/NEWS.pdf">North East Weak Signal Group</a></li>
+        <li><a href="2016-42/Introduction/SVHFS.pdf">Southeast VHF Society</a></li>
+        <li><a href="2016-42/Introduction/Best_Paper_and_Presentation_Awards.pdf">Best Technical Paper and Best Presentation Awards</a></li>
+        <li><a href="2016-42/Introduction/Speakers_and_Authors_Biographies.pdf">Speaker and Author Biographies</a><span class="author"> &mdash; Marshall Williams, K5QE</span></li>
+        <li><a href="2016-42/Introduction/MUD_2016_Conference_Press_Release.pdf">2016 Microwave Update Press Release</a><span class="author"> &mdash; Marshall Williams, K5QE</span></li>
+        <li><a href="2016-42/Presentation_Papers/K5QE-Saint_Martin_2015.pdf">Activating Saint Martin as TO2EME &amp; Sint Maarten as PJ7/PE1L</a><span class="author"> &mdash; Marshall Williams, K5QE</span></li>
+        <li><a href="2016-42/Presentation_Papers/K0VXM-The_FLWSS_Beacon_Project.pdf">The FLWSS Beacon Project</a><span class="author"> &mdash; Chuck Hoover, K0VXM</span></li>
+        <li><a href="2016-42/Presentation_Papers/K1DS-Rover_Revolution_2016_Past-Present-Future.pdf">VHF ROVER Revolution</a><span class="author"> &mdash; Rick Rosen, K1DS</span></li>
+        <li><a href="2016-42/Presentation_Papers/N6NB-Setting_New_DX_Records.pdf">Setting New World DX Records on 2.3 and 3.4 GHz</a><span class="author"> &mdash; Wayne Overbeck, N6NB</span></li>
+        <li><a href="2016-42/Presentation_Papers/N1JEZ-Ericsson_13cm_Amplifier_Conversion.pdf">Ericsson 13cm Amplifier Conversion</a><span class="author"> &mdash; Mike Seguin, N1JEZ and Henry Ingwersen, KT1J</span></li>
+        <li><a href="2016-42/Presentation_Papers/K4MSG-Estimating_Tropo_Range.pdf">Estimating Tropospheric Working Range on VHF/UHF</a><span class="author"> &mdash; Paul Bock, K4MSG</span></li>
+        <li><a href="2016-42/Presentation_Papers/N8FGV-21st_Century_Challenges_for_AMSAT.pdf">Keeping Amateur Radio in Space - 21st Century Challenges and Opportunities for AMSAT</a><span class="author"> &mdash; Daniel Schultz, N8FGV</span></li>
+        <li><a href="2016-42/Presentation_Papers/K3TUF-IF_Triplexer.pdf">IF Triplexer</a><span class="author"> &mdash; Phil Theis, K3TUF</span></li>
+        <li><a href="2016-42/Presentation_Papers/WA2AAU-How_to_Tune_and_Modify_Filters_the_Right_Way.pdf">How to Tune and Modify Filters &quot;The Right Way&quot;</a><span class="author"> &mdash; Dick Frey, WA2AAU</span></li>
+        <li><a href="2016-42/Presentation_Papers/WA8RJF-The_Second_Annual_Microwave_Gulf_Outing-2015.pdf">The Second Annual Microwave Gulf Outing - 2015</a><span class="author"> &mdash; Tony Emanuele, WA8RJF</span></li>
+        <li><a href="2016-42/Presentation_Papers/K1JT-Codes_and_Modes_for_Weak-Signal_Communication.pdf">Codes and Modes for Weak-Signal Communication</a><span class="author"> &mdash; Joe Taylor, K1JT</span></li>
+        <li><a href="2016-42/Presentation_Papers/KB1VC-ArduinoQuick.pdf">The Arduino: An Electronic Tinkertoy</a><span class="author"> &mdash; Matt Reilly, KB1VC</span></li>
+        <li><a href="2016-42/Presentation_Papers/K4QF_One_Day_Polar_Mount_for_EME.pdf">A One Day Polar Mount for EME</a><span class="author"> &mdash; Ben Lowe, K4QF</span></li>
+        <li><a href="2016-42/Presentation_Papers/VE2XX-60ft_Tilt_Over_Tower_Project.pdf">60 ft Tilt Over Tower Project</a><span class="author"> &mdash; Stuart Truba, VE2XX</span></li>
+        <li><a href="2016-42/Presentation_Papers/W1GHZ-A_Simple_Low-cost_5760_MHz_Transverter_for_the_Rover.pdf">A Simple Low-cost 5760 MHz Transverter for the Rover</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2016-42/Presentation_Papers/W1GHZ-Personal_Beacon_or_LO_for_5760_and_3456_MHz.pdf">A Personal Beacon or LO for 5760 and 3456 MHz</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2016-42/Presentation_Papers/W8ZN-Building_the_super_rover.pdf">Building a &quot;SUPER ROVER&quot;</a><span class="author"> &mdash; Terry Price, W8ZN</span></li>
+        <li><a href="2016-42/Presentation_Papers/W1SMS-Rotating_Towers_are_Not_for_Weenies.pdf">Rotating Towers Are Not For Weenies</a><span class="author"> &mdash; Steve Simon, W1SMS</span></li>
+        <li><a href="2016-42/Presentation_Papers/WD5AGO-Amateur_Radio_Activities_in_Higher_Education.pdf">Amateur Radio Activities in Higher Education: Past and Present</a><span class="author"> &mdash; Tommy Henderson, WD5AGO</span></li>
+        <li><a href="2016-42/EME_Workshop/K2UYH-Getting_Started_on_1296_EME.pdf">Getting Started on 1296 EME</a><span class="author"> &mdash; Al Katz, K2UYH</span></li>
+        <li><a href="2016-42/EME_Workshop/K2UYH-SMALL_OFFSET_DISH.pdf">Small Offset Stress Dish for Portable 1296 EME</a><span class="author"> &mdash; Al Katz, K2UYH</span></li>
+        <li><a href="2016-42/EME_Workshop/K2UYH-BIG_OFFSET_DISHES.pdf">Big Offset Stress Dish</a><span class="author"> &mdash; Al Katz, K2UYH</span></li>
+        <li><a href="2016-42/EME_Workshop/K2UYH-EME_Polarization_Primer.pdf">Polarization Primer for EME Operation</a><span class="author"> &mdash; Al Katz, K2UYH</span></li>
+        <li><a href="2016-42/EME_Workshop/K2UYH-Devilish_Doppler.pdf">Devilish Doppler - Critical Knowledge for Successful EME</a><span class="author"> &mdash; Al Katz, K2UYH</span></li>
+        <li><a href="2016-42/VHF101/K5QE-VHF101_Weak_Signal_VHF.pdf">VHF 101: A First Look at Weak Signal VHF and Up</a><span class="author"> &mdash; Marshall Williams, K5QE and Kent O&#x27;Dell, KA2KQM</span></li>
+        <li><a href="2016-42/VHF101/K1DS-Basics_of_VHF_Contesting.pdf">Basics of VHF Contesting</a><span class="author"> &mdash; Rick Rosen, K1DS and Michael Davis, KB1JEY</span></li>
+        <li><a href="2016-42/VHF101/KB1JEY-The_Why_and_How_of_Microwave_Transverters.pdf">The Why and How of Microwave Transverters</a><span class="author"> &mdash; Michael Davis, KB1JEY</span></li>
+        <li><a href="2016-42/VHF101/K4MSG-Beginners_Guide_to_Small_Station_EME.pdf">Beginner&#x27;s Guide to Small-Station EME</a><span class="author"> &mdash; Paul Bock, K4MSG</span></li>
+        <li><a href="2016-42/VHF101/K4MSG-Low-Cost_EME_Dual_Arrays.pdf">Pictorial Guide to Economical Mounting of Dual-Yagi VHF &amp; UHF EME Arrays</a><span class="author"> &mdash; Paul Bock, K4MSG</span></li>
+        <li><a href="2016-42/VHF101/K1WHS-Stacking_multiple_bands_on_one_tower.pdf">Stacking VHF Antennas for Different Bands on the Same Mast</a><span class="author"> &mdash; Dave Olean, K1WHS</span></li>
+        <li><a href="2016-42/VHF101/K3TUF-Assistance.pdf">Assistance (Contests)</a><span class="author"> &mdash; Phil Theis, K3TUF</span></li>
+        <li><a href="2016-42/VHF101/K5QE-The_Dark_Side_of_Sequencing.pdf">The Dark Side of Sequencing</a><span class="author"> &mdash; Marshall Williams, K5QE</span></li>
+        <li><a href="2016-42/Contributed_Papers/K9EK-SDR_Panadaptors-A_Practical_Guide.pdf">SDR Panadaptors - A Practical Guide</a><span class="author"> &mdash; Ed Krome, K9EK</span></li>
+        <li><a href="2016-42/Contributed_Papers/K2DH-IC-202_Panadapter.pdf">IC-202: Another Adaptation of &quot;A Panadapter for the FT-817&quot;</a><span class="author"> &mdash; Dave Hallidy, K2DH</span></li>
+        <li><a href="2016-42/Contributed_Papers/W3SZ-OpenHPSDR_for_VHF_UHF_Microwave.pdf">OpenHPSDR for VHF/UHF/Microwave, version 3.0</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2016-42/Contributed_Papers/N2CEI-Frequency_Locking_Elecraft_Transverters.pdf">Frequency Locking Elecraft Transverters</a><span class="author"> &mdash; Steve Kostro, N2CEI</span></li>
+        <li><a href="2016-42/Contributed_Papers/W2ZV-2meter_70cm_Portable_Antenna.pdf">A 2 meter and 70 cm Portable Antenna</a><span class="author"> &mdash; Gary Greene, W2ZV</span></li>
+        <li><a href="2016-42/Contributed_Papers/W1GHZ-Omni_Antenna_for_1296_MHz.pdf">Quick and Cheap Omni Antenna for 1296 MHz</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2016-42/Contributed_Papers/W2RMA_10GHz_Fire_Tower_Horn.pdf">10 GHz Fire Tower Horn</a><span class="author"> &mdash; Bill Koch, W2RMA</span></li>
+        <li><a href="2016-42/Contributed_Papers/W1FKF-Cheap_Microwave_Marker.pdf">Cheap Microwave Marker</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2016-42/Contributed_Papers/WD5AGO-Multi-Purpose 2 to 6 GHz Mixer.pdf">Multi-Purpose 2.4 through 6 GHz Mixer-Block</a><span class="author"> &mdash; Tommy Henderson, WD5AGO</span></li>
+        <li><a href="2016-42/Contributed_Papers/W1GHZ-Updating_the Simple_Low-cost_2304_MHz_Transverter.pdf">Updating the Simple Low-cost 2304 MHz Transverter for the Rover</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2016-42/Contributed_Papers/W1FKF-10-24_GHz_Transverter.pdf">Dual Band 10/24 GHz Transverter</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2016-42/Contributed_Papers/W1FKF-10GHz_YIG_Transverter.pdf">10 GHz YIG LO Transverter</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2016-42/Contributed_Papers/W1GHZ-Single_Stub_Impedance_Matching.pdf">Single-Stub Impedance Matching</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2016-42/Contributed_Papers/K3TUF-Band_Selection_Board.pdf">Band Selection Board</a><span class="author"> &mdash; Phil Theis, K3TUF</span></li>
+        <li><a href="2016-42/Contributed_Papers/W7GJ-EME_DXpedition_to_V6M.pdf">EME DXpedition to V6M</a><span class="author"> &mdash; Lance Collister, W7GJ</span></li>
+        <li><a href="2016-42/Awards_and_Contests/Rover_Recognition_Award.pdf">The Rover Recognition Award</a><span class="author"> &mdash; Mt. Airy VHF Radio Club (Packrats)</span></li>
+        <li><a href="2016-42/Awards_and_Contests/Worked_all_EM_Award.pdf">Worked All of &#x27;EM Award</a><span class="author"> &mdash; The Southeastern VHF Society</span></li>
+        <li><a href="2016-42/Awards_and_Contests/Fall_VHF-UHF_Sprints.pdf">Fall VHF/UHF Sprints</a><span class="author"> &mdash; The Southeastern VHF Society</span></li>
+        <li><a href="2016-42/Awards_and_Contests/2016_Fall_Sprint_Rules.pdf">Rules for 2016 VHF Fall Sprint Contests</a><span class="author"> &mdash; Bruce Randall, NT4RT</span></li>
+        <li><a href="2016-42/Awards_and_Contests/2015_50MHz_Fall_Sprint_Results.pdf">RESULTS: 6 meter Fall Sprints 2015</a></li>
+        <li><a href="2016-42/Awards_and_Contests/2015_144MHz_Fall_Sprint_Results.pdf">RESULTS: 2 meter Fall Sprints 2015</a></li>
+        <li><a href="2016-42/Awards_and_Contests/2015_222MHz_Fall_Sprint_Results.pdf">RESULTS: 222MHz Fall Sprints 2015</a></li>
+        <li><a href="2016-42/Awards_and_Contests/2015_432MHz_Fall_Sprint_Results.pdf">RESULTS: 432MHz Fall Sprints 2015</a></li>
+        <li><a href="2016-42/Awards_and_Contests/2015_Microwave_Fall_Sprint_Results.pdf">RESULTS: Microwave Fall Sprint 2015</a></li>
+        <li><a href="2016-42/Awards_and_Contests/2013_Eastern_VHF_Conference_NF_Results.pdf">2013 Eastern VHF Conference Noise Figure Results</a></li>
+        <li><a href="2016-42/Awards_and_Contests/Best_Paper_and_Presentation_Prize_Donors.pdf">2016 Best Paper and Presentation Prize Donors</a></li>
+        <li><a href="2016-42/Introduction/2016_VHF_Super_Conference_Donors.pdf">List of Sponsors and Contributors</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2015">
+      <h2>41st Eastern VHF/UHF/Microwave Conference (2015)</h2>
+      <p class="paper-count">42 papers</p>
+      <ul class="paper-list">
+        <li><a href="2015-41/Introduction/Welcome.pdf">Welcome</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2015-41/Schedule.pdf">Schedule</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2015-41/Introduction/TOM_KIRBY_MEMORIAL_AWARD.pdf">Tom Kirby Memorial Award</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2015-41/CD_Contents.pdf">Contents of CD</a><span class="author"> &mdash; Steve Simons, W1SMS</span></li>
+        <li><a href="2015-41/2016_VHF_Super_Conference_Announcement.pdf">2016 VHF Super Conference Announcement</a><span class="author"> &mdash; Steve Simons, W1SMS</span></li>
+        <li><a href="2015-41/Presentation_Papers/W1SMS_Lightning_Strikes.pdf">Lightning Strikes!</a><span class="author"> &mdash; Steve Simons, W1SMS</span></li>
+        <li><a href="2015-41/Presentation_Papers/W3SZ_OpenHPSDR_for_VHF_UHF_Microwave.pdf">OpenHPSDR for VHF/UHF/Microwave</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2015-41/Presentation_Papers/K3TUF_Advanced_SDR.pdf">A Radio Server for VHF+ Contesting and Weak Signal Work</a><span class="author"> &mdash; Phil Theis, K3TUF</span></li>
+        <li><a href="2015-41/Presentation_Papers/VE3CZO_Low-Cost_Panadapter_Interface.pdf">A Low Cost Panadapter Interface</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="2015-41/Presentation_Papers/VE2XX_Anan_SDR_transverter_interface.pdf">Anan SDR Transverter Interface</a><span class="author"> &mdash; Stuart Truba, VE2XX</span></li>
+        <li><a href="2015-41/Presentation_Papers/N6NB_Working_Hawaii_on_VHF_1957-2014.pdf">Working Hawaii on VHF, 1957-2014</a><span class="author"> &mdash; Wayne Overbeck, N6NB</span></li>
+        <li><a href="2015-41/Presentation_Papers/N1JEZ_Experiments_on _241_GHz.pdf">Experiments on 241 GHz</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="2015-41/Presentation_Papers/W1GHZ_6-Meter_Filter_with_Harmonic_Suppression.pdf">6-Meter Filter with Harmonic Suppression</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2015-41/Presentation_Papers/VE2DFO_The_Evolution_of_1296_Power_Amplifiers.pdf">The Evolution of 1296 Power Amplifiers</a><span class="author"> &mdash; Don Falle, VE2DFO</span></li>
+        <li><a href="2015-41/Presentation_Papers/NI2L_Experiences_Building_W6PQL_Amplifiers.pdf">Experiences Building the W6PQL 220 and 1.2GHz SSPAs</a><span class="author"> &mdash; Bob Bownes, KI2L</span></li>
+        <li><a href="2015-41/Presentation_Papers/N1ZN_Dish_Antennas-How_they_are_made.pdf">The Microwave Dish - How It&#x27;s Made</a><span class="author"> &mdash; Jim Savage, N1ZN</span></li>
+        <li><a href="2015-41/Presentation_Papers/N6NB_VHF_Adventures_Coast_to_Coast_58years.pdf">VHF Adventures Coast to Coast - A 58-year Odyssey</a><span class="author"> &mdash; Wayne Overbeck, N6NB</span></li>
+        <li><a href="2015-41/Presentations/K3TUF_Advanced_SDR.pptx">A Radio Server for VHF+ Contesting and Weak Signal Work (Slides)</a><span class="author"> &mdash; Phil Theis, K3TUF</span></li>
+        <li><a href="2015-41/Presentations/VE2DFO_The_Evolution_of_1296_Power_Amplifiers.pptx">The Evolution of 1296 Power Amplifiers (Slides)</a><span class="author"> &mdash; Don Falle, VE2DFO</span></li>
+        <li><a href="2015-41/Presentations/W3SZ_OpenHPSDRforVHF_UHF_Microwave_Slides.pdf">OpenHPSDR for VHF/UHF/Microwave (Slides)</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2015-41/not on CD/K3TUF RadioServer.ppt">Radio Server (Slides - not on original CD)</a><span class="author"> &mdash; Phil Theis, K3TUF</span></li>
+        <li><a href="2015-41/not on CD/KI2L_pql amps.pptx">Experiences Building W6PQL Amplifiers (Slides - not on original CD)</a><span class="author"> &mdash; Bob Bownes, KI2L</span></li>
+        <li><a href="2015-41/Other_Papers/VE3CZO_BatteryMonitor.zip">Battery Monitor</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="2015-41/Other_Papers/VE3CZO_FT817_DConTx_User_Manual.pdf">FT817 DC on Transmit</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="2015-41/Other_Papers/W1GHZ_Coax_Relay_Driver.pdf">Coax Relay Driver</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2015-41/Other_Papers/W1GHZ_Combline_Filters_for_VHF_and_UHF-Update.pdf">Combline Filters for VHF and UHF - Update</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2015-41/Other_Papers/W1GHZ_Simple_Broadband_Power_Amplifiers.pdf">Simple Broadband Solid-State Power Amplifiers</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2015-41/Other_Papers/W1GHZ_Simple_Frequency_Doublers.pdf">Simple Frequency Doublers with High Performance</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2015-41/Speaker_Biographies/Steve_Simons_W1SMS.pdf">Steve Simons, W1SMS</a></li>
+        <li><a href="2015-41/Speaker_Biographies/Roger_Rehr_W3SZ.pdf">Roger Rehr, W3SZ</a></li>
+        <li><a href="2015-41/Speaker_Biographies/Wayne_Getchell_VE3CZO.pdf">Wayne Getchell, VE3CZO</a></li>
+        <li><a href="2015-41/Speaker_Biographies/Stuart_Truba_VE2XX.pdf">Stuart Truba, VE2XX</a></li>
+        <li><a href="2015-41/Speaker_Biographies/Wayne_Overbeck_N6NB.pdf">Wayne Overbeck, N6NB</a></li>
+        <li><a href="2015-41/Speaker_Biographies/Mike_Seguin_N1JEZ.pdf">Mike Seguin, N1JEZ</a></li>
+        <li><a href="2015-41/Speaker_Biographies/Paul_Wade_W1GHZ.pdf">Paul Wade, W1GHZ</a></li>
+        <li><a href="2015-41/Speaker_Biographies/Bob_Bownes_KI2L.pdf">Bob Bownes, KI2L</a><span class="author"> &mdash; Ron Klimas, WZ1V</span></li>
+        <li><a href="2015-41/Speaker_Biographies/Jim_Savage_N1ZN.pdf">Jim Savage, N1ZN</a><span class="author"> &mdash; Ron Klimas, WZ1V</span></li>
+        <li><a href="2015-41/Video/MtWashington_10GHz_Beacon.mp4">Mount Washington 10 GHz Beacon Expedition</a><span class="author"> &mdash; Ron Klimas, WZ1V</span></li>
+        <li><a href="2015-41/Pictures/NEWS_Picnic2013">NEWS Picnic 2013</a><span class="author"> &mdash; Ron Klimas, WZ1V</span></li>
+        <li><a href="2015-41/Pictures/NEWS_Picnic2014">NEWS Picnic 2014</a><span class="author"> &mdash; Ron Klimas, WZ1V</span></li>
+        <li><a href="2015-41/Pictures/Other">Miscellaneous</a></li>
+        <li><a href="2015-41/Introduction/Conference_Supporters_2015.pdf">List of Sponsors and Contributors</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2014">
+      <h2>40th Eastern VHF/UHF/Microwave Conference (2014)</h2>
+      <p class="paper-count">77 papers</p>
+      <ul class="paper-list">
+        <li><a href="2014-40/Introduction/Welcome.pdf">Welcome to the 40th Annual Eastern VHF/UHF/Microwave Conference</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2014-40/Schedule.pdf">Schedule</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2014-40/Introduction/TOM_KIRBY_MEMORIAL_AWARD.pdf">Tom Kirby Memorial Award</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2014-40/CD_Contents.pdf">Contents of CD</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2014-40/Presentation_Papers/W3SZ-Aircraft_Scatter_for_the_Microwave_Enthusiast.pdf">Aircraft Scatter for the Microwave Enthusiast</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2014-40/Presentation_Papers/W3SZ-AircraftScatterSharpNew.pdf">AircraftScatter Sharp Program Description</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2014-40/Presentation_Papers/N1DPM-Fresh_Approach_to_Multiband_Microwave_Station.pdf">A Fresh Approach To A Multi-Band Microwave Station</a><span class="author"> &mdash; Fred Stefanik, N1DPM</span></li>
+        <li><a href="2014-40/Presentation_Papers/KB1VC-SoDa-A_Multimode_VHF-UHF_Software_Defined_Radio.pdf">SoDa - A Multimode VHF/UHF Software Defined Radio</a><span class="author"> &mdash; Matt Reilly, KB1VC</span></li>
+        <li><a href="2014-40/Presentation_Papers/WA1ZMS-Trans-Atlantic_VHF_Propagation-What_We_Do_&amp;_Do_Not_Know.pdf">Trans-Atlantic VHF Propagation, What We Do &amp; Do Not Know</a><span class="author"> &mdash; Brian Justin, WA1ZMS</span></li>
+        <li><a href="2014-40/Presentation_Papers/Wallace-Microwave_Antenna_Demonstrations_based_on_IEEE_Presentation_by_John_Kraus.pdf">Microwave Antenna Demonstrations Based on the IEEE Presentation by John Kraus</a><span class="author"> &mdash; John Kraus</span></li>
+        <li><a href="2014-40/Presentation_Papers/N1JEZ-LDMOS_Amplifier_Linearization_using_PowerSDR_mRX_Pure_Signal.pdf">LDMOS RF Amplifier Linearization using PowerSDR mRX Pure Signal</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="2014-40/Presentation_Papers/2M_1kW_Larcan_Amplifier_modules-from_VO1KS.htm">2M 1kW Larcan Amplifier</a><span class="author"> &mdash; Paul Newcombe, N1RJX</span></li>
+        <li><a href="2014-40/Presentation_Papers/W1GHZ-Simple_Cheap_MMIC_Preamps.pdf">Simple Cheap MMIC Preamps</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2014-40/Presentation_Papers/W1GHZ-Altoids_tin_filters.pdf">Altoids Tin Filters</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2014-40/Presentation_Papers/W1GHZ-Combline_Filters_for_VHF_and_UHF.pdf">Combline Filters for VHF and UHF</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2014-40/Other_Papers/W1GHZ-Semi-rigid_cable_preparation.MOV">Semi-rigid Cable Preparation (VIDEO)</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2014-40/Presentation_Papers/AF1T-An_Illuminating_Introduction_To_Stacking_and_Phasing_of_Antennas.pdf">An Illuminating Introduction to Antennas</a><span class="author"> &mdash; Dale Clement, AF1T</span></li>
+        <li><a href="2014-40/Presentations/N1DPM-Fresh_Approach_to_Multiband_Microwave_Station.ppt">A Fresh Approach to a Multi-Band Microwave Station (Slides)</a><span class="author"> &mdash; Fred Stefanik, N1DPM</span></li>
+        <li><a href="2014-40/Presentations/W3SZAircraftScatterNEWS2014Slides.pdf">Aircraft Scatter for the Microwave Enthusiast (Slides)</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2014-40/Other_Papers/W1FKF-78_GHz_WA1MBA_preamp.pdf">78 GHz 12 inch Dish with WA1MBA Preamp</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2014-40/Other_Papers/N1JEZ-Mt_Washington_10_GHz_Beacon.pdf">Mt Washington 10 GHz Beacon Update</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="2014-40/Other_Papers/W1GHZ_VCXO_for_Microwave_LO.pdf">Locked VCXOs for Stable Microwave Local Oscillators with Low Phase Noise</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2014-40/Other_Papers/N1JEZ_RefloLeo.pdf">RefloLeo - an Arduino based Toaster Oven Controller for Reflow Soldering</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="2014-40/Other_Papers/KI2L-Installing_W1GHZ-N1JEZ_Panadapter_Adapter_in_the_FT-2000.pdf">Installing the W1GHZ / N1JEZ Panadapter Adapter in the Yaesu FT-2000</a><span class="author"> &mdash; Bob Bownes, KI2L</span></li>
+        <li><a href="2014-40/Other_Papers/W4KXY-W4ZST-A_Panadapter_for_the_FT-2000_on_6.pdf">A Panadapter for the FT-2000 on 6 using the Funcube Dongle</a><span class="author"> &mdash; Jim Worsham, W4KXY and Bob Lear, W4ZST</span></li>
+        <li><a href="2014-40/Other_Papers/K9EK_TS-430S_Funcube_Panadapter.pdf">TS-430S Funcube Panadapter</a><span class="author"> &mdash; Ed Krome, K9EK</span></li>
+        <li><a href="2014-40/Other_Papers/W6SZ_Funcube_Panadapter_note.pdf">FT-817 Funcube Panadapter Note</a><span class="author"> &mdash; Rein, W6SZ</span></li>
+        <li><a href="2014-40/Other_Papers/I6IBE_Panadapter_Yaesu_FT817_897_857_rtl2832_e4000_dongle.htm">I6IBE Panadapter for Yaesu FT-817, FT-897, and FT-857</a><span class="author"> &mdash; I6IBE</span></li>
+        <li><a href="2014-40/Other_Papers/G4HUP_web_page.pdf">G4HUP Panoramic Adaptor Tap Board</a><span class="author"> &mdash; Dave Powis, G4HUP</span></li>
+        <li><a href="2014-40/Other_Papers/W1FKF_10GHz_Cheapo_LNB_and_USB dongle.pdf">10 GHz Narrow Band using a $6.00 TVRO LNB and a Cheap $20 USB DSP Dongle as the IF</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2014-40/Other_Papers/N1RJX_IC-746_SDR _Mod.pdf">Icom IC 746 Pro SDR RX Modification</a><span class="author"> &mdash; Paul Newcombe, N1RJX</span></li>
+        <li><a href="2014-40/Other_Papers/N1RJX_SDR_settings.pdf">Com0Com SDR Settings</a><span class="author"> &mdash; Paul Newcombe, N1RJX</span></li>
+        <li><a href="2014-40/Other_Papers/N1RJX_ssb_10m.jpg">SSB 10m Screenshot</a><span class="author"> &mdash; Paul Newcombe, N1RJX</span></li>
+        <li><a href="2014-40/Speaker_Biographies/Roger_Rehr_W3SZ.pdf">Roger Rehr, W3SZ</a></li>
+        <li><a href="2014-40/Speaker_Biographies/Fred_Stefanik_N1DPM.pdf">Fred Stefanik, N1DPM</a></li>
+        <li><a href="2014-40/Speaker_Biographies/Matt_Reilly_KB1VC.pdf">Matt Reilly, KB1VC</a></li>
+        <li><a href="2014-40/Speaker_Biographies/Brian_Justin_WA1ZMS.pdf">Brian Justin, WA1ZMS</a></li>
+        <li><a href="2014-40/Speaker_Biographies/Jon_Wallace.pdf">Jon Wallace</a></li>
+        <li><a href="2014-40/Speaker_Biographies/Mike_Seguin_N1JEZ.pdf">Mike Seguin, N1JEZ</a></li>
+        <li><a href="2014-40/Speaker_Biographies/Paul_Wade_W1GHZ.pdf">Paul Wade, W1GHZ</a></li>
+        <li><a href="2014-40/Speaker_Biographies/Dale_Clement_AF1T.pdf">Dale Clement, AF1T</a></li>
+        <li><a href="2014-40/Speaker_Biographies/Jim_Savage_N1ZN.pdf">Jim Savage, N1ZN</a></li>
+        <li><a href="2014-40/Speaker_Biographies/Paul_Newcombe_N1RJX.pdf">Paul Newcombe, N1RJX/G6YZC</a></li>
+        <li><a href="2014-40/Pictures/K1LPS_and_W1JR-432_EME.JPG">K1LPS and W1JR 432 EME</a></li>
+        <li><a href="2014-40/Pictures/6M_WHEN_IT_REALLY_OPENS .JPG">6M When It Really Opens</a></li>
+        <li><a href="2014-40/Pictures/NY_STATE_WUDNT_GIVE_ME_NY2NY_SO.JPG">NY State Wouldn&#x27;t Give Me NY2NY So...</a></li>
+        <li><a href="2014-40/Pictures/NYC_RADIO_ROW_1950.JPG">NYC Radio Row 1950</a></li>
+        <li><a href="2014-40/Pictures/ROXS_DURING_GEMINIDS_2013.JPG">Roxs During Geminids 2013</a></li>
+        <li><a href="2014-40/Pictures/W1GHZ_hanging_from_a_tower.JPG">W1GHZ Hanging from a Tower</a></li>
+        <li><a href="2014-40/Pictures/KW2T-N2MRX-10GHzOkemo2013.JPG">KW2T and N2MRX 10 GHz Okemo 2013</a></li>
+        <li><a href="2014-40/Pictures/Morehead_State_dish.JPG">Morehead State Dish</a></li>
+        <li><a href="2014-40/Pictures/Jeff_Kruth_basement.JPG">Jeff Kruth Basement</a></li>
+        <li><a href="2014-40/Pictures/Jeff_Kruth_basement2.JPG">Jeff Kruth Basement 2</a></li>
+        <li><a href="2014-40/Pictures/W1AIM_10GHZ_Block_Island.JPG">W1AIM 10 GHz Block Island</a></li>
+        <li><a href="2014-40/Pictures/W1AIM_Block_Island.JPG">W1AIM Block Island</a></li>
+        <li><a href="2014-40/Pictures/KB1VC_Radome_Block_Island.JPG">KB1VC Radome Block Island</a></li>
+        <li><a href="2014-40/Pictures/KB1VC_Shack-in-a-box.JPG">KB1VC Shack-in-a-box</a></li>
+        <li><a href="2014-40/Pictures/W1WSO_10GHZ_Block_Island.JPG">W1WSO 10 GHz Block Island</a></li>
+        <li><a href="2014-40/Pictures/W1GHZ_10GHz_Block_Island.JPG">W1GHZ 10 GHz Block Island</a></li>
+        <li><a href="2014-40/Pictures/W1GHZ_operating_position_Block_Island.JPG">W1GHZ Operating Position Block Island</a></li>
+        <li><a href="2014-40/Pictures/Sunset_Block_Island.JPG">Sunset Block Island</a></li>
+        <li><a href="2014-40/Pictures/KV1J-1_Sept_2013_Contest_Mt_Washington-Antennas.JPG">KV1J Sept 2013 Contest Mt Washington Antennas</a></li>
+        <li><a href="2014-40/Pictures/KV1J-1_Sept_2013_Contest_Mt_Washington-Station.JPG">KV1J Sept 2013 Contest Mt Washington Station</a></li>
+        <li><a href="2014-40/Pictures/W1AIM_antenna_mast_transport.JPG">W1AIM Antenna Mast Transport</a></li>
+        <li><a href="2014-40/Pictures/Antenna_repair-W1AIM.JPG">Antenna Repair W1AIM</a></li>
+        <li><a href="2014-40/Pictures/Darth_Vader_on_Kersarge.JPG">Darth Vader on Kearsarge</a></li>
+        <li><a href="2014-40/Pictures/K1DY_Rover.JPG">K1DY Rover</a></li>
+        <li><a href="2014-40/Pictures/KL6M_disaster-high_winds.JPG">KL6M Disaster High Winds</a></li>
+        <li><a href="2014-40/Pictures/Mt_Mansfield_antennas.JPG">Mt Mansfield Antennas</a></li>
+        <li><a href="2014-40/Pictures/Mansfield-2012.JPG">Mansfield 2012</a></li>
+        <li><a href="2014-40/Pictures/March_of_the_dishes-Mt_Washington.JPG">March of the Dishes Mt Washington</a></li>
+        <li><a href="2014-40/Pictures/N1LZC-K1MAP.JPG">N1LZC and K1MAP</a></li>
+        <li><a href="2014-40/Pictures/W1AIM_repaired_dish_feed.JPG">W1AIM Repaired Dish Feed</a></li>
+        <li><a href="2014-40/Pictures/W1AIM_broken_SMA_center_pin.JPG">W1AIM Broken SMA Center Pin</a></li>
+        <li><a href="2014-40/Pictures/W1AIM_sun_noise.JPG">W1AIM Sun Noise</a></li>
+        <li><a href="2014-40/Pictures/W1AIM_tipped_dish.JPG">W1AIM Tipped Dish</a></li>
+        <li><a href="2014-40/Introduction/Conference_Supporters2014.pdf">List of Sponsors and Contributors</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2013">
+      <h2>39th Eastern VHF/UHF/Microwave Conference (2013)</h2>
+      <p class="paper-count">38 papers</p>
+      <ul class="paper-list">
+        <li><a href="2013-39/Welcome.pdf">Welcome</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2013-39/Schedule.pdf">Schedule</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2013-39/Tom_Kirby_Memorial_Award.pdf">Tom Kirby Memorial Award</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2013-39/Contents.pdf">Contents of CD</a><span class="author"> &mdash; Rick Rosen, K1DS</span></li>
+        <li><a href="2013-39/K1DS_Rover_Redux_2013.pdf">Rover Redux 2013</a><span class="author"> &mdash; Rick Rosen, K1DS</span></li>
+        <li><a href="2013-39/KJ1K_Homebrew_Yeasu_Rotor_Controller.pdf">Home brew Yeasu Rotor Controller</a><span class="author"> &mdash; Sigurd Kimpel, KJ1K</span></li>
+        <li><a href="2013-39/VE3CZO_24-23cm_2stage_PA.pdf">A 24-23 cm 2 Stage Amp Design From Concept to Prototype</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="2013-39/WA2AAU_Experiments_with_Elevated_Antenna_Range.pdf">Experiments Using Mother Nature&#x27;s Elevated Antenna Range</a><span class="author"> &mdash; Dick Frey, WA2AAU</span></li>
+        <li><a href="2013-39/WD1V_Modern_Oscilloscope_Screenshot.jpg">Modern Oscilloscopes</a><span class="author"> &mdash; Mike Hertz, WD1V</span></li>
+        <li><a href="2013-39/W1GHZ_Locked_VCXO_for_Microwave_Local_Oscillators.pdf">Locked VCXOs for Stable Microwave Local Oscillators with Low Phase Noise</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2013-39/W1TR_Backup_Generator_Installation.pdf">Whole House Backup Generator Installation</a><span class="author"> &mdash; Terry Glagowski, W1TR</span></li>
+        <li><a href="2013-39/W1RT_3D_printed_horn.jpg">3D Printing for Microwave Horns</a><span class="author"> &mdash; John D&#x27;Ausilio, W1RT</span></li>
+        <li><a href="2013-39/G4JNT_Tests_on_Digital_TV_LNB_for_10GHz_narrowband.pdf">Tests on a DIGITAL TV LNB for 10GHz narrowband</a><span class="author"> &mdash; Andy Talbot, G4JNT</span></li>
+        <li><a href="2013-39/KB1VUA_Backup_Power-the_Cheap_Ham_Approach.pdf">Backup Power - The &quot;Cheap Ham&quot; Approach</a><span class="author"> &mdash; Bob Peloquin, KB1VUA</span></li>
+        <li><a href="2013-39/KJ7OG_EME_USB_Tower_Camera.pdf">EME USB Tower Camera: Uses No External DC Power Supply</a><span class="author"> &mdash; L. Stephen Bell, KJ7OG</span></li>
+        <li><a href="2013-39/K0CQ_A_Nearly_Predictable_Broad_Band_Noise_Source.pdf">A Nearly Predictable Broad Band Noise Source</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2013-39/K0CQ_Setting_Transverter_Drive_for_Better_Signal_Reports.pdf">Setting Transverter Drive for Better Signal Reports</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2013-39/K0CQ_soldering.html">Soldering</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2013-39/VE3CZO_Battery_Monitor.pdf">Battery Monitor</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="2013-39/VE3CZO_CleverLoad.pdf">CleverLoad</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="2013-39/VE3CZO_Recipe_for_Rapid_PCB_Prototyping.pdf">A Recipe for Rapid Printed Circuit Board Prototyping</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="2013-39/VE3CZO_Switching_Regulator_Boosts_12_to_28V.pdf">Switching Regulator Boost Converter Drives 24-28V RF Relays</a><span class="author"> &mdash; Wayne Getchell, VE3CZO</span></li>
+        <li><a href="2013-39/VO1KS_Grounding_and_Bonding_for_Lightning _protection.pdf">Grounding and Bonding for Lightning Protection</a><span class="author"> &mdash; Warren Stone, VO1KS</span></li>
+        <li><a href="2013-39/WA3YGQ_Ode_to_Sporadic_E.pdf">Ode to Sporadic E</a><span class="author"> &mdash; WA3YGQ</span></li>
+        <li><a href="2013-39/WD1V_DeadZone_in_Oscilloscope_Measurement.pdf">Eliminating The Dead Zone In Scope Measurement</a><span class="author"> &mdash; Mike Hertz, WD1V</span></li>
+        <li><a href="2013-39/W1FKF_10_GHz_Narrowband_using_Cheapo_LNB_and_USB_dongle.pdf">10 GHz Narrow Band using a $6.00 TVRO LNB And a Cheap $20 USB DSP Dongle as the IF</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2013-39/W1FKF_Modification_to_Hermes- ANAN-10_for_Transverter_output.pdf">Modification to Hermes / ANAN-10 Add Common Transverter +5 dBm Output</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2013-39/W1FKF_TPI_USB_RF_signal_generator.pdf">TPI USB RF Signal Generator</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2013-39/W1GHZ_Flexible_VCXO_Locking_Board.pdf">A Flexible VCXO Locking Board</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2013-39/W2LNX_Experimenting_with_High-Speed_Wireless_Networking_in_the_420_MHz_Band.pdf">Experimenting with High-Speed Wireless Networking in the 420 MHz Band</a><span class="author"> &mdash; David Bern, W2LNX</span></li>
+        <li><a href="2013-39/2M_antenna_at_K8GP_FM19.JPG">2M antenna at K8GP FM19</a><span class="author"> &mdash; Ed Parsons, K1TR</span></li>
+        <li><a href="2013-39/K1TR_on_Mt_Washington.JPG">K1TR on Mt. Washington</a><span class="author"> &mdash; Ed Parsons, K1TR</span></li>
+        <li><a href="2013-39/K1TR_shack_jan26aa_2013.JPG">K1TR shack January 2013</a><span class="author"> &mdash; Ed Parsons, K1TR</span></li>
+        <li><a href="2013-39/K1TR_tower_jan2013aa.JPG">K1TR tower January 2013</a><span class="author"> &mdash; Ed Parsons, K1TR</span></li>
+        <li><a href="2013-39/Overheated_25KW_load.jpg">Overheated 25KW Dummy Load</a><span class="author"> &mdash; Warren Stone, VO1KS</span></li>
+        <li><a href="2013-39/Overheated_25KW_load-melted_aluminum.jpg">Overheated 25KW Dummy Load showing melted Aluminum</a><span class="author"> &mdash; Warren Stone, VO1KS</span></li>
+        <li><a href="2013-39/VHF-UHF_BEACONS_by_WZ1V.html">WZ1V Beacon List</a></li>
+        <li><a href="2013-39/Sponsors_with_Logos.pdf">List of Sponsors and Contributors</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2012">
+      <h2>38th Eastern VHF/UHF/Microwave Conference (2012)</h2>
+      <p class="paper-count">27 papers</p>
+      <ul class="paper-list">
+        <li><a href="2012-38/PDF/K8GP_Presentation.pdf">The K8GP Contest Superstation</a><span class="author"> &mdash; Terry Price, W8ZN</span></li>
+        <li><a href="2012-38/PDF/WA2OMY_S-Band Surplus Amplifiers.pdf">Using MMDS Surplus Amplifiers for 2304</a><span class="author"> &mdash; Gary Hitchner, WA2OMY</span></li>
+        <li><a href="2012-38/PDF/K1WHS_LARCAN MODS.pdf">Improving the Larcan Amplifier at 50.0 MHz</a><span class="author"> &mdash; David Olean, K1WHS</span></li>
+        <li><a href="2012-38/PDF/W3SZ_MultipleBandscopePaper.pdf">What&#x27;s All This Multiple Bandscope Stuff, Anyhow?</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2012-38/PDF/W3SZ_MultipleBandscopeSlides.pdf">+ Presentation Slides</a><span class="author"> &mdash; Roger Rehr, W3SZ</span></li>
+        <li><a href="2012-38/PDF/K3TUF_SDR101_101312.pdf">Introduction and Advances in Software Defined Radios</a><span class="author"> &mdash; Phil Theis, K3TUF</span></li>
+        <li><a href="2012-38/PDF/K3TUF_PICHamStack-101312.pdf">Ham Radio Projects Using The HamStack Platform</a><span class="author"> &mdash; Phil Theis, K3TUF</span></li>
+        <li><a href="2012-38/PDF/W1GHZ_A_Flexible_VCXO_Locking_Board.pdf">A Flexible VCXO Locking Board</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2012-38/PDF/K3TUF_W1GHZ_ExpressPCB-101312.pdf">ExpressPCB</a><span class="author"> &mdash; Phil Theis, K3TUF and Paul Wade, W1GHZ</span></li>
+        <li><a href="2012-38/PDF/K1JT_MAP65_2012_K1JT.pdf">MAP65 Version 2: A Panoramic, Polarization-Matching Receiver for JT65</a><span class="author"> &mdash; Joe Taylor, K1JT</span></li>
+        <li><a href="2012-38/PDF/N4MW_Beacons_Packrats-News_2012_paper.pdf">N4MW Dual Band Synthesized Beacon</a><span class="author"> &mdash; Dave Meier, N4MW</span></li>
+        <li><a href="2012-38/PDF/K1DS_Portable_EME_no_links.pdf">Portable EME CW 144-432-1296</a><span class="author"> &mdash; Rick Rosen, K1DS</span></li>
+        <li><a href="2012-38/PDF/W3HMS_432_MHz_Portable_EME_Work_7_Aug_2012.pdf">432 MHz Portable EME Work</a><span class="author"> &mdash; John Jaminet, W3HMS</span></li>
+        <li><a href="2012-38/Presentations/W3HMS_IMG_1858.JPG">Picture 1</a></li>
+        <li><a href="2012-38/Presentations/W3HMS_IMG_1859.JPG">Picture 2</a><span class="author"> &mdash; Stan Hilinski, KA1ZE</span></li>
+        <li><a href="2012-38/Presentations/W3HMS_IMG_1860.JPG">Picture 3</a><span class="author"> &mdash; Stan Hilinski, KA1ZE</span></li>
+        <li><a href="2012-38/Presentations/W3HMS_IMG_1861.JPG">Picture 4</a><span class="author"> &mdash; Stan Hilinski, KA1ZE</span></li>
+        <li><a href="2012-38/Presentations/W3HMS_IMG_1863.JPG">Picture 5</a><span class="author"> &mdash; Stan Hilinski, KA1ZE</span></li>
+        <li><a href="2012-38/Presentations/W3HMS_IMG_1864.JPG">Picture 6</a><span class="author"> &mdash; Stan Hilinski, KA1ZE</span></li>
+        <li><a href="2012-38/Presentations/W3HMS_IMG_1865.JPG">Picture 7</a><span class="author"> &mdash; Stan Hilinski, KA1ZE</span></li>
+        <li><a href="2012-38/Presentations/W3HMS_IMG_1866.JPG">Picture 8</a><span class="author"> &mdash; Stan Hilinski, KA1ZE</span></li>
+        <li><a href="2012-38/PDF/KA1ZE-100.pdf">205 Morning Group Mission Statement</a><span class="author"> &mdash; Stan Hilinski, KA1ZE</span></li>
+        <li><a href="2012-38/PDF/WA3IAC_PHA-wide_band_amplifier_rev_B.pdf">Wide Band Amplifier with a Punch</a><span class="author"> &mdash; Chuck Steer, WA3IAC</span></li>
+        <li><a href="2012-38/PDF/N6NB_gorilla.pdf">A 1200-Pound Gorilla</a><span class="author"> &mdash; Wayne Overbeck, N6NB</span></li>
+        <li><a href="2012-38/PDF/M-Ham-Bandplans VHF Conf 2012 K1MAP-1.pdf">902-3500 MHz Band Plans for Weak Signal Users</a><span class="author"> &mdash; Mark Casey, K1MAP</span></li>
+        <li><a href="2012-38/PDF/Rover_Recognition_Award_2012.pdf">Rover Recognition Award 2012</a></li>
+        <li><a href="2012-38/Presentations/Rover_Recognition_2012_W1RT.jpg">Award Plaque Photo</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2011">
+      <h2>37th Eastern VHF/UHF/Microwave Conference — Microwave Update (2011)</h2>
+      <p class="paper-count">52 papers</p>
+      <ul class="paper-list">
+        <li><a href="2011-37/Welcome.pdf">Welcome</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2011-37/Schedule.pdf">Schedule</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2011-37/Don_Hilliard_Technical_Achievement_Award.pdf">The Don Hilliard Technical Achievement Award</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2011-37/Rover_Recognition_Award_2011.pdf">Rover Recognition Award 2010</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2011-37/Tom_Kirby_Memorial_Award.pdf">Tom Kirby Memorial Award</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2011-37/History_of_Microwave_Update.pdf">History of Microwave Update</a><span class="author"> &mdash; Al Ward, W5LUA</span></li>
+        <li><a href="2011-37/Author_and_Speaker_Biographies.pdf">Author and Speaker Biographies</a><span class="author"> &mdash; Dennis G. Sweeney, WA4LPR</span></li>
+        <li><a href="2011-37/The_Science_and_Practice_of_Phase_Noise_Measurement--WA4LPR.pdf">The Science and Practice of Phase Noise Measurement</a><span class="author"> &mdash; Dennis G. Sweeney, WA4LPR</span></li>
+        <li><a href="2011-37/Building_a_portable_Multi-Limited_VHF_Contest_Station--KA2LIM.pdf">Building a portable Multi-Limited VHF Contest Station</a><span class="author"> &mdash; Ken Kent, KA2LIM</span></li>
+        <li><a href="2011-37/Roam--W1AUV.pdf">Roam</a><span class="author"> &mdash; Thomas P. Sullivan, W1AUV</span></li>
+        <li><a href="2011-37/1kW_Solid_State_Amplifier_for_144MHz--N1DPM.pdf">1kW Solid State Amplifier for 144MHz</a><span class="author"> &mdash; Fred Stefanik, N1DPM</span></li>
+        <li><a href="2011-37/VLNA2_for_70cm--G4DDK.pdf">VLNA70</a><span class="author"> &mdash; Sam Jewell, G4DDK</span></li>
+        <li><a href="2011-37/Modifying_the_W6PQL_LNA_PCB_for_144_through_902_MHz--W2ZV.pdf">Modifying the W6PQL LNA PCB for 144 through 902 MHz</a><span class="author"> &mdash; Gary R. Greene, W2ZV</span></li>
+        <li><a href="2011-37/Attacking_intermod_in_the_EME_station--K0CQ.pdf">Attacking intermod in the EME station</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2011-37/Stabilty_and_Low_Noise_Amplifiers--W5LUA.pdf">Stability and Low Noise Amplifiers</a><span class="author"> &mdash; Al Ward, W5LUA</span></li>
+        <li><a href="2011-37/Recent_SolidState_PA_Projects--WW2R.pdf">Recent SolidState PA Projects</a><span class="author"> &mdash; Dave Robinson, WW2R</span></li>
+        <li><a href="2011-37/A_2_Watt_Driver_Amplifiers_for_1296-2304_MHz--WA3IAC.pdf">A 2 Watt Driver Amplifiers for 1296/2304MHz</a><span class="author"> &mdash; Chuck Steer, WA3IAC</span></li>
+        <li><a href="2011-37/A_2_Watt_Driver_Amplifier_for_3456_MHz--WA3IAC.pdf">A 2 Watt Driver Amplifiers for 3456MHz</a><span class="author"> &mdash; Chuck Steer, WA3IAC</span></li>
+        <li><a href="2011-37/Recipes_for_Printed_Hairpin_Filters--W1GHZ.pdf">Recipes for Printed Hairpin Filters</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2011-37/Uses_for_California_Amplifier_MMDS_Downconverters--WA4WDL.pdf">Uses for California Amplifier MMDS Downconverters</a><span class="author"> &mdash; John Franke, WA4WDL</span></li>
+        <li><a href="2011-37/Updating_KK7B_SHF_DEM_or_DEMI_900_and_1296_MHz_Transverters--N2CEI.pdf">Updating KK7B, SHF, DEM or DEMI 900 and 1296 MHz Transverters</a><span class="author"> &mdash; Steve Kostro, N2CEI</span></li>
+        <li><a href="2011-37/Low_Cost_Horn_Antennas_for_23cm_EME--WD5AGO.pdf">Low Cost Horn Antennas for 23 cm EME</a><span class="author"> &mdash; Thomas Henderson, WD5AGO</span></li>
+        <li><a href="2011-37/Experiences_with_Focusing_a_Cassegrain_Dish--AD6FP.pdf">Experiences with Focusing a Cassegrain Dish</a><span class="author"> &mdash; Gary Lauterbach, AD6FP</span></li>
+        <li><a href="2011-37/Improvised_28ft_Dish_Mount--WB2BYP.pdf">An Improvised 28 ft Dish Mount</a><span class="author"> &mdash; David Upton, WB2BYP</span></li>
+        <li><a href="2011-37/Reducing_dish_gain_for_easier_aiming--K0CQ.pdf">Reducing a dish&#x27;s gain for easier aiming</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2011-37/A_lightweight_20_foot_stressed_dish_for_1296_MHz_EME--N2UO.pdf">A lightweight 20 foot stressed dish for 1296 MHz EME</a><span class="author"> &mdash; Marc Franco, N2UO</span></li>
+        <li><a href="2011-37/Parabolic_Dishes_with Flat_Subreflectors--W1GHZ.pdf">Parabolic Dishes with Flat Subreflectors</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2011-37/How_Close_Can_They_be_Stacked--K0CQ.pdf">How Close Can They be Stacked?</a><span class="author"> &mdash; Gerald Johnson, K0CQ</span></li>
+        <li><a href="2011-37/Using_Horns_on_much_lower_ Frequencies--WA5VJB.pdf">Using Horns on much lower Frequencies</a><span class="author"> &mdash; Kent Britain, WA5VJB</span></li>
+        <li><a href="2011-37/Preparation_for_78 GHz_EME--VE4MA.pdf">Preparation for 78 GHz EME</a><span class="author"> &mdash; Barry Malowanchuk, VE4MA</span></li>
+        <li><a href="2011-37/Small_Station_EME--K2UYH.pdf">Small Station EME</a><span class="author"> &mdash; Al Katz, K2UYH</span></li>
+        <li><a href="2011-37/EME_with_3m_dish_on_1296_MHz--W3HMS.pdf">EME with a 3m dish on 1296 MHz</a><span class="author"> &mdash; John Jaminet, W3HMS</span></li>
+        <li><a href="2011-37/A_Panadapter_for_the_FT-817--N1JEZ.pdf">A Panadapter for the FT-817</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="2011-37/Six_Port_Model--W5NYV.pdf">Six-Ports</a><span class="author"> &mdash; Michelle Thompson, W5NYV</span></li>
+        <li><a href="2011-37/A_Transverter_Interface_for_the_Flex-3000_SDR--W1RIL.pdf">A Transverter Interface for the Flex 3000</a><span class="author"> &mdash; Ken Schofield, W1RIL</span></li>
+        <li><a href="2011-37/Band_Specific_PTT_outputs_for_the_Elecraft_K3--WW2R.pdf">Band Specific PTT outputs for the Elecraft K3</a><span class="author"> &mdash; Dave Robinson, WW2R</span></li>
+        <li><a href="2011-37/10MHz_Filter_for_GPS_Reference--W1GHZ.pdf">10 MHz Filter for GPS Frequency Reference</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2011-37/Elegant_12-Volt_Outlet_Box--W1GHZ.pdf">Elegant 12-Volt Outlet Box</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2011-37/Making_Shielded_Enclosures_without_a_Mill_Shear_or_Brake--WA4WDL.pdf">Making Shielded Enclosures without a Mill, Shear, or Brake</a><span class="author"> &mdash; John Franke, WA4WDL</span></li>
+        <li><a href="2011-37/Simple_Vertical_V_Block--WA4WDL.pdf">Simple Vertical &quot;V&quot; Block</a><span class="author"> &mdash; John Franke, WA4WDL</span></li>
+        <li><a href="2011-37/Visiting_an_Old_Friend--N2CEI.pdf">Visiting an Old Friend</a><span class="author"> &mdash; Steve Kostro, N2CEI</span></li>
+        <li><a href="2011-37/Bandwidth_Monograph--WB1CMG.pdf">Bandwidth</a><span class="author"> &mdash; David M. Upton, WB1CMG</span></li>
+        <li><a href="2011-37/Conjugate_Match_Series--WB1CMG.pdf">Conjugate Match Series</a><span class="author"> &mdash; David M. Upton, WB1CMG</span></li>
+        <li><a href="2011-37/Low_Impedance_Parallel_Transmission_Lines--K0CQ.pdf">Low Impedance Parallel Transmission Lines</a><span class="author"> &mdash; Gerald N. Johnson, K0CQ</span></li>
+        <li><a href="2011-37/MUD2010_Antenna_Measurement_Results.pdf">MUD2010 Antenna Measurement Data and Results</a><span class="author"> &mdash; Peter Day, VK3XPD</span></li>
+        <li><a href="2011-37/MUD2010_Noise_Figure_Results.pdf">MUD2010 Noise Figure, Frequency and Power Measurement Data and Results</a><span class="author"> &mdash; Peter Day, VK3XPD</span></li>
+        <li><a href="2011-37/76-122Ghz_Transverter_Design--VK3XPD.pdf">76 GHz and 122 GHz in a single Transverter</a><span class="author"> &mdash; Peter Day, VK3XPD</span></li>
+        <li><a href="2011-37/Magic_Microwave_Frequency_LO_II--K4QF.pdf">Multi-Frequency Microwave Manifold Updated</a><span class="author"> &mdash; Ben Lowe, K4QF</span></li>
+        <li><a href="2011-37/Make_More_Miles_with_Your_Mixers--WA1ZMS.ppt">Make More Miles with Your Mixers</a><span class="author"> &mdash; Brian Justin, WA1ZMS</span></li>
+        <li><a href="2011-37/WR28_WG_on_47_GHz--VE4MA.pdf">Use of WR28 Waveguide on 47 GHz?</a><span class="author"> &mdash; Barry Malowanchuk, VE4MA</span></li>
+        <li><a href="2011-37/W1RT_Rover_LO_Automation--ON4IY_W1RT.pdf">W1RT/R Rover (LO) automation</a><span class="author"> &mdash; Christophe Huygens, ON4IY and John D&#x27;Ausilio, W1RT</span></li>
+        <li><a href="2011-37/Estimate_Dish_Forces_in_Wind--WB2BYP.xls">Estimate Dish Forces in Wind - Spreadsheet</a><span class="author"> &mdash; David Upton, WB2BYP</span></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2010">
+      <h2>36th Eastern VHF/UHF/Microwave Conference (2010)</h2>
+      <p class="paper-count">39 papers</p>
+      <ul class="paper-list">
+        <li><a href="2010-36/moonbounce/moons in the eyes.htm">Moons in the Eyes: Moon Communication at the Naval Research Laboratory 1951-1962</a><span class="author"> &mdash; David K. van Keuren</span></li>
+        <li><a href="2010-36/Introduction/Intro.pdf">Conference Introduction</a></li>
+        <li><a href="2010-36/Introduction/committe.pdf">Conference Committee</a></li>
+        <li><a href="2010-36/Introduction/experience.pdf">Conference Experience</a><span class="author"> &mdash; Award</span></li>
+        <li><a href="2010-36/Introduction/trivia.pdf">Trivia Quiz</a><span class="author"> &mdash; Award</span></li>
+        <li><a href="2010-36/Introduction/kirby-1.pdf">Tom Kirby Award</a><span class="author"> &mdash; Award</span></li>
+        <li><a href="2010-36/Introduction/NEWS 3-09">NEWS Meeting 3-09 (file folder pictures)</a></li>
+        <li><a href="2010-36/Introduction/contest.jpg">After the Contest</a></li>
+        <li><a href="2010-36/W3SO.pdf">W3SO Contest Station</a><span class="author"> &mdash; Marty Johnson W3YOZ</span></li>
+        <li><a href="2010-36/6MeterBeacon.ppt">6 Meter Beacon Project 8RIDB</a><span class="author"> &mdash; Chris Patterson W3CMP</span></li>
+        <li><a href="2010-36/Tower Construction.pdf">Tower Safety &amp; Construction</a><span class="author"> &mdash; Steve Simmons W1SMS</span></li>
+        <li><a href="2010-36/8555A.pdf">Bamdswitch Switch Repair of the 8555A Spectrum Analyzer</a><span class="author"> &mdash; Dick WA2AAU &amp; KC2HIZ</span></li>
+        <li><a href="2010-36/8555A.doc">Bamdswitch Switch Repair of the 8555A Spectrum Analyzer (Word)</a><span class="author"> &mdash; Dick WA2AAU &amp; KC2HIZ</span></li>
+        <li><a href="2010-36/W1RIL 2M.jpg">2M Transverter in a Can - Reuse Your Altoids Front View</a><span class="author"> &mdash; Ken Schofeld W1RIL</span></li>
+        <li><a href="2010-36/W1RIL 2M Back.jpg">2M Transverter in a Can - Reuse Your Altoids Rear View</a><span class="author"> &mdash; Ken Schofeld W1RIL</span></li>
+        <li><a href="2010-36/riw19eme.jpg">N2GHR Moonbounce Contact with KP4AO - Antenna Setup</a><span class="author"> &mdash; Paul Ziminski N2GHR</span></li>
+        <li><a href="2010-36/n2ghr-kp4aoe1.mp3">N2GHR Moonbounce Contact with KP4AO - recording</a><span class="author"> &mdash; Paul Ziminski N2GHR</span></li>
+        <li><a href="2010-36/arecibo1c.jpg">QSL Confirmation N2GHR-KP4AO</a><span class="author"> &mdash; Paul Ziminski N2GHR</span></li>
+        <li><a href="2010-36/14el 144MHz ultra low noise LFA.html">14 elm 144 MHz Ultra Low Noise LFA</a><span class="author"> &mdash; Justin G0KSC</span></li>
+        <li><a href="2010-36/midnightloop.pdf">The Midnight Loop</a><span class="author"> &mdash; G. Heron N2APB &amp; J. Everhart N2CX</span></li>
+        <li><a href="2010-36/902-add.pdf">Addition to 902 Notes 1983</a><span class="author"> &mdash; Don W0PW</span></li>
+        <li><a href="2010-36/DistAmp.pdf">Distribution Amplifier</a><span class="author"> &mdash; Dave G4HUP</span></li>
+        <li><a href="2010-36/SDR Intro.pdf">SDR (Soft Ware Defined Radio) Introduction</a><span class="author"> &mdash; Bob G8VOL * Andrew G4XZL</span></li>
+        <li><a href="2010-36/SoftRock 9.0.pdf">SoftRock Ver 9.0 Users Guide</a><span class="author"> &mdash; Bob G8VOI</span></li>
+        <li><a href="2010-36/SoftRock 9.0 vhf Converters.pdf">SoftRock Ver 9.0 VHF Converters</a><span class="author"> &mdash; Bob G8VOI</span></li>
+        <li><a href="2010-36/ATMEL.pdf">Programming ATMEL ATTNY45</a><span class="author"> &mdash; Bob G8VOI</span></li>
+        <li><a href="2010-36/soldering on a griddle.pdf">Soldering on a Griddle</a></li>
+        <li><a href="2010-36/vacuum pickup.pdf">A Vacuum Pic from a Bic</a><span class="author"> &mdash; Ken Schofeld W1RIL&gt;</span></li>
+        <li><a href="2010-36/60 years of building-09">60 Years of Building (File Listing)</a><span class="author"> &mdash; Ken Schofeld W1RIL&gt;</span></li>
+        <li><a href="2010-36/47 GHz N1JEZ">47 GHz Rig - N1JEZ (File Listing)</a><span class="author"> &mdash; Mike Seguin N1JEZ&gt;</span></li>
+        <li><a href="2010-36/Digital Station.ppt">Digitial Station Enhancements</a><span class="author"> &mdash; Phil Theis K3TUF&gt;</span></li>
+        <li><a href="2010-36/R&amp;S">Test Equipment Primer (File Listing)</a><span class="author"> &mdash; Greg  Bonaguide WA1VUG&gt;</span></li>
+        <li><a href="2010-36/VHF Conference 2009.ppt">Test Equipment and Applications for the Microwave Enthusiast</a><span class="author"> &mdash; Greg Bonaguide WA1VUG&gt;</span></li>
+        <li><a href="2010-36/Phase_Noise.pdf">Update - Phase Noise &amp; MDS 2009</a><span class="author"> &mdash; Paul Wade W1GHZ&gt;</span></li>
+        <li><a href="2010-36/Phase Noise Workshop MUD.pdf">Phase Noise Workshop MUD</a><span class="author"> &mdash; Dave WW2R, Steve N2CEI, Chuck AF8Z, Eric KC4YOE &amp; John KE5FX&gt;</span></li>
+        <li><a href="2010-36/VY0.ppt">VE3FN/VY0 Operations</a><span class="author"> &mdash; Ray Pernin VE2FN&gt;</span></li>
+        <li><a href="2010-36/SBMS">SBMS (San Bernardino Microwave Society) Newsletter Reprints 2000-2006 (File Listing)</a><span class="author"> &mdash; Paul Drexler W2PED</span></li>
+        <li><a href="2010-36/VHF News">VHF NEWS Newsletter Reprints 1949-1950 from NTMS (North Texas Microwave Society (File Listing)</a><span class="author"> &mdash; Paul Drexler W2PED</span></li>
+        <li><a href="2010-36/2009 NEWS Conf - Subharmonic Mixer Part II/W2PED Subharmonic Mixer for 24 GHz Part II.ppt">Subharmonic Mixer for 24 GHz - Part II</a><span class="author"> &mdash; Paul Drexler W2PED</span></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2009">
+      <h2>35th Eastern VHF/UHF/Microwave Conference (2009)</h2>
+      <p class="paper-count">49 papers</p>
+      <ul class="paper-list">
+        <li><a href="2009-35/Introduction/TOC.doc">Table of Contents</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2009-35/Introduction/Intro.doc">Introduction</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2009-35/Introduction/Committe.doc">Committee</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2009-35/Introduction/Experience.doc">Experience</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2009-35/Introduction/Kirby-1.doc">Tom Kirby Memorial Award</a><span class="author"> &mdash; Memorial Award</span></li>
+        <li><a href="2009-35/Introduction/Future Dates.doc">Future Dates</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2009-35/Introduction/Trivia.doc">Trivia</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2009-35/General/1296xtvr.pdf">1296 MHz Transverter - Right Side Up</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2009-35/General/902_MHz_Transverter_for_the_Multiband_Rover.pdf">902 MHz Transverter for the Multiband Rover</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2009-35/General/A x4 Subharmonic Mixer for 24 GHz Rev A.pdf">A x4 Subharmonic Mixer for 24 GHz</a><span class="author"> &mdash; Paul Drexler, W2PED</span></li>
+        <li><a href="2009-35/General/WGFIL.pdf">Waveguide Filters You Can Build - and Tune (Part 1 - Waveguide Post Filters)</a><span class="author"> &mdash; Paul Wade, W1GHZ</span></li>
+        <li><a href="2009-35/General/INSTALLING 2M YAGI WITHIN A 70CM ARRAY.pdf">Installing 2M Yagi Within a 70CM Array</a><span class="author"> &mdash; Bert, VE2ZAZ</span></li>
+        <li><a href="2009-35/General/K9LTN Monster Tower &amp; Array.pdf">Construction of the Largest SteppIR Yagi Stack in the World at K9LTN</a><span class="author"> &mdash; Brion C. Gilbert, N0AE</span></li>
+        <li><a href="2009-35/General/SEQUENCERS FOR EME.pdf">Use of Sequencers for EME Systems</a><span class="author"> &mdash; Tom Mott, W2DRZ</span></li>
+        <li><a href="2009-35/General/W1SL.pdf">New Ideas for the 2-Meter Kilowatt</a><span class="author"> &mdash; Thomas McMullen, W1QVF and Edward P. Tilton, W1HDQ</span></li>
+        <li><a href="2009-35/General/Digital Station Enhancements1.ppt">Digital Station Enhancements (PowerPoint)</a><span class="author"> &mdash; Phil Theis, K3TUF</span></li>
+        <li><a href="2009-35/General/N1JEZ_122.ppt">122 GHz (PowerPoint)</a><span class="author"> &mdash; Mike Seguin, N1JEZ</span></li>
+        <li><a href="2009-35/General/N3NGE Jan Contest.ppt">January Contest (PowerPoint)</a><span class="author"> &mdash; N3NGE</span></li>
+        <li><a href="2009-35/General/W1OUN_Moonbnce.ppt">Moonbounce (PowerPoint)</a><span class="author"> &mdash; Dr. Gordon Pettengill, W1OUN</span></li>
+        <li><a href="2009-35/General/K1OR_K1CA Nova Scotia/Nova Scotia 08.ppt">Nova Scotia Trip (PowerPoint)</a><span class="author"> &mdash; K1OR &amp; K1CA</span></li>
+        <li><a href="2009-35/GPS Locking/FT817_External_Reference.pdf">Modifying the Yaesu FT-817 External 10 MHz Reference Input</a><span class="author"> &mdash; David Smith, VK3HZ</span></li>
+        <li><a href="2009-35/GPS Locking/FT817_Sequencer.pdf">Yaesu FT-817 Transverter/PA Sequencer</a><span class="author"> &mdash; David Smith, VK3HZ</span></li>
+        <li><a href="2009-35/GPS Locking/FT847_External_Reference.pdf">Modifying the Yaesu FT-847 External 22.625 MHz Reference Input</a><span class="author"> &mdash; David Smith, VK3HZ</span></li>
+        <li><a href="2009-35/GPS Locking/Reference_Oscillator.pdf">Rig Locking - External Reference Oscillator</a><span class="author"> &mdash; David Smith, VK3HZ</span></li>
+        <li><a href="2009-35/GPS Locking/VK3II_FT-736_Rig_Locking.pdf">External GPS Frequency Reference for the FT736</a><span class="author"> &mdash; Jim Forse, VK3II</span></li>
+        <li><a href="2009-35/GPS Locking/VK7MO_GPS_Locking_the_IC%20910-H.pdf">GPS Locking the IC 910-H</a><span class="author"> &mdash; Rex Moncur, VK7MO</span></li>
+        <li><a href="2009-35/Amplifiers/W1RIL 2M Amp/">W1RIL 2M Amp</a><span class="author"> &mdash; Ken Schofield, W1RIL</span></li>
+        <li><a href="2009-35/Amplifiers/W1RIL 4CX1000A  (gnd screen) on 6 meters/">W1RIL 4CX1000A (gnd screen) on 6 meters</a><span class="author"> &mdash; Ken Schofield, W1RIL</span></li>
+        <li><a href="2009-35/Amplifiers/W1RIL 60 yrs of building/">W1RIL 60 yrs of building</a><span class="author"> &mdash; Ken Schofield, W1RIL</span></li>
+        <li><a href="2009-35/Amplifiers/W1RIL GI46B on 2 meters/">W1RIL GI46B on 2 meters</a><span class="author"> &mdash; Ken Schofield, W1RIL</span></li>
+        <li><a href="2009-35/Amplifiers/W1RIL GI7B on 222/">W1RIL GI7B on 222</a><span class="author"> &mdash; Ken Schofield, W1RIL</span></li>
+        <li><a href="2009-35/Software Defined Radio/HFSDDR.pdf">HF SDR S/H Sample and Hold Transceivers AVALA-01 and ADTRX-2</a><span class="author"> &mdash; Tasa YU1LM/QRP</span></li>
+        <li><a href="2009-35/Software Defined Radio/HFSDR-1.pdf">HF SDR S/H Sample and Hold Transceiver ADTRX1 from 30 KHz to 35 MHz - Part 1</a><span class="author"> &mdash; Tasa YU1LM/QRP</span></li>
+        <li><a href="2009-35/Software Defined Radio/SDR-6M.pdf">HF, 6 m, 2 m and 0.7m SDR Receivers AR1 and AR2 Series - Part 1</a><span class="author"> &mdash; Tasa YU1LM/QRP</span></li>
+        <li><a href="2009-35/Software Defined Radio/TS-2000SoftRockIF.pdf">SoftRock Interface to Kenwood TS-2000 10.695 MHz IF</a><span class="author"> &mdash; Doug Hall, K4DSP</span></li>
+        <li><a href="2009-35/Software Defined Radio/TS2000X_IF.pdf">TS-2000X Service Manual SDR IF Output</a><span class="author"> &mdash; PA3CEG</span></li>
+        <li><a href="2009-35/Software Defined Radio/W1FKF HPSDR.ppt">HPSDR (PowerPoint)</a><span class="author"> &mdash; Don Twombly, W1FKF</span></li>
+        <li><a href="2009-35/Software Defined Radio/SR Building/">SoftRock Building Guides</a></li>
+        <li><a href="2009-35/Software Defined Radio/N2LIV/">N2LIV SDR Photos</a></li>
+        <li><a href="2009-35/R&amp;S/FSH_bro_en.pdf">R&amp;S FSH Handheld Spectrum Analyzer</a></li>
+        <li><a href="2009-35/R&amp;S/FSU_bro_en.pdf">R&amp;S FSU Spectrum Analyzer</a></li>
+        <li><a href="2009-35/R&amp;S/FSUP_bro_en.pdf">R&amp;S FSUP Signal Source Analyzer</a></li>
+        <li><a href="2009-35/R&amp;S/NRP_bro_en.pdf">R&amp;S NRP Power Meter Family</a></li>
+        <li><a href="2009-35/R&amp;S/ZVA_bro_en.pdf">R&amp;S ZVA Vector Network Analyzer</a></li>
+        <li><a href="2009-35/R&amp;S/ZVL_bro_en.pdf">R&amp;S ZVL Vector Network Analyzer</a></li>
+        <li><a href="2009-35/R&amp;S/1EF56.pdf">Frequency Extension for Phase Noise Measurements with FSUP26/50 (App Note 1EF56)</a></li>
+        <li><a href="2009-35/R&amp;S/1EF68_cross_correlation_extension_for_FSUP_2.pdf">Phase Noise Measurement up to 50 GHz with High Dynamic Range (App Note 1EF68)</a></li>
+        <li><a href="2009-35/R&amp;S/1EF69_E1.pdf">Time Domain Oscillator Stability Measurement - Allan Variance (App Note 1EF69)</a></li>
+        <li><a href="2009-35/R&amp;S/1MA09_28e.pdf">Program for Frequency Response Measurements - FreRes (App Note 1MA09)</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2008">
+      <h2>34th Eastern VHF/UHF/Microwave Conference (2008)</h2>
+      <p class="paper-count">86 papers</p>
+      <ul class="paper-list">
+        <li><a href="2008-34//Introduction/Intro.pdf">Conference 
+  Introduction</a></li>
+        <li><a href="2008-34//Introduction/committee.pdf">Conference 
+  Committee</a></li>
+        <li><a href="2008-34//Introduction/experience.pdf">Conference 
+  Experience</a><span class="author"> &mdash; Award</span></li>
+        <li><a href="2008-34//Introduction/trivia.pdf">Trivia Quiz</a><span class="author"> &mdash; Award</span></li>
+        <li><a href="2008-34//Introduction/kirby.pdf">Tom Kirby Award</a><span class="author"> &mdash; Award</span></li>
+        <li><a href="2008-34//Introduction/Conf_Slideshow.exe">2007 Eastern 
+  VHf/UHF Conference Slideshow</a></li>
+        <li><a href="2008-34//Introduction/BBQ_Slideshow.exe">2007 NEWS Group 
+  BBQ/MDS Session Slideshow</a></li>
+        <li><a href="2008-34//Introduction/MUD_slideshow.exe">2007 Microwave 
+  Update Slideshow</a></li>
+        <li><a href="2008-34//Introduction/rat1.pdf">PACKRAT History</a></li>
+        <li><a href="2008-34//Introduction/rat2.jpg">The Rat Meets Our Presidents</a></li>
+        <li><a href="2008-34//Introduction/contest.jpg">After the Contest</a></li>
+        <li><a href="2008-34//Technical_papers/dtv.pdf">Digitial 
+  Television</a></li>
+        <li><a href="2008-34//Technical_papers/mansfield.pdf">The Mt. Mansfield 
+  Consoladation Project</a></li>
+        <li><a href="2008-34//Technical_papers/baluns.pdf">Baluns &amp; 
+  Ferrites</a></li>
+        <li><a href="2008-34//Technical_papers/attenuator.pdf">Attenuator for 
+  30 dB</a></li>
+        <li><a href="2008-34//Technical_papers/RF.pdf">A Basic RF Voltmeter or 
+  1 MHz to 1 GHz</a></li>
+        <li><a href="2008-34//Technical_papers/50_MHZ.pdf">50MHz Contest Array 
+  the 2007 Version</a></li>
+        <li><a href="2008-34//Technical_papers/astro.pdf">144 MHz Wide Band 
+  IF-Detector-Integrator</a></li>
+        <li><a href="2008-34//Technical_papers/abpm.pdf">DEM ABPM Kit All Band 
+  Power Meter</a></li>
+        <li><a href="2008-34//Technical_papers/EME.pdf">EME on 2M, 23 cm, 13 cm 
+  and 3 cm</a></li>
+        <li><a href="2008-34//Technical_papers/EME07.pdf">Backyard Microwave 
+  EME</a></li>
+        <li><a href="2008-34///Technical_papers/ANST.pdf">A 1296 Transmit 
+  Converter with 70cm IF Input</a></li>
+        <li><a href="2008-34//Technical_papers/pipe.pdf">Pipe Cap Filters 
+  Revisited</a></li>
+        <li><a href="2008-34//Technical_papers/surplus.pdf">Surplus Power 
+  Amplifiers from Digitial Communications Services</a></li>
+        <li><a href="2008-34//Technical_papers/Source.pdf">Super Econo 2.4 GHz 
+  RF Source</a></li>
+        <li><a href="2008-34//Technical_papers/multiband.pdf">Multiband 
+  Microwave Transverters for the Rover</a></li>
+        <li><a href="2008-34//Technical_papers/fmi.pdf">Microwave Frequency Management Kit</a></li>
+        <li><a href="2008-34//Technical_papers/trans.pdf">Transitions for Small 
+  Waveguides</a></li>
+        <li><a href="2008-34//Technical_papers/circular.pdf">Microwave Dish 
+  Feeds for Circular Polarization</a></li>
+        <li><a href="2008-34//Technical_papers/9cm.pdf">A Simple 9 cms Converter</a></li>
+        <li><a href="2008-34//Technical_papers/Sub.pdf">Design Notes for a 24 
+  GHz Subharmonic Mixer</a></li>
+        <li><a href="2008-34//Technical_presentations/dtv.ppt">Digitial Television</a></li>
+        <li><a href="2008-34//Technical_presentations/Mansfield.ppt">The Mt. Mansfield Consoladation Project</a></li>
+        <li><a href="2008-34//Technical_presentations/50MHz.ppt">A 50 MHz Contest Array</a></li>
+        <li><a href="2008-34//Technical_presentations/wbif.ppt">Wide Band IF Receiver for Radio Astronomy</a></li>
+        <li><a href="2008-34//Technical_presentations/WA2VNV.ppt">Tower Mounted Switched Pre-Amp Design for 903 &amp; 1296</a></li>
+        <li><a href="2008-34//Technical_presentations/surplus.ppt">Surplus Power Amplifiers from Digitial Communications Service or Real Power on 2.3 
+    GHz</a></li>
+        <li><a href="2008-34//Soft/grids.exe">Worked Grids</a><span class="author"> &mdash; VE2ZAZ</span></li>
+        <li><a href="2008-34//Soft/TEPMODELGRAPH/MCRINSTALLER.MSI">Install MatLab before running TEP Simulations</a></li>
+        <li><a href="2008-34//Soft/TEPMODELGRAPH/TEPMODELGRAPH.EXE">TEP Simulations (see DUBUS 1/2008 for explanation)</a></li>
+        <li><a href="2008-34//Scatterpoint_articles/wg22.pdf">Using the Rel Comm WG22 Switches at 24 GHz</a></li>
+        <li><a href="2008-34//Scatterpoint_articles/DFS.pdf">A Direct Frequency Synthesiser for 106.5 MHz</a></li>
+        <li><a href="2008-34//Scatterpoint_articles/PLL.pdf">250 MHz Phase Locked Source</a></li>
+        <li><a href="2008-34//Scatterpoint_articles/Circular.pdf">Circular Polarization</a></li>
+        <li><a href="2008-34//Scatterpoint_articles/white.pdf">White Boxes</a></li>
+        <li><a href="2008-34//Scatterpoint_articles/SIZE.pdf">Does Size Really Matter</a></li>
+        <li><a href="2008-34//Scatterpoint_articles/Four.pdf">A Simple Four Band IF Transverter Switch</a></li>
+        <li><a href="2008-34/EME/eme0501.pdf">EME Newsletter - January 2005</a></li>
+        <li><a href="2008-34/EME/eme0502.pdf">EME Newsletter - February 2005</a></li>
+        <li><a href="2008-34/EME/eme0503.pdf">EME Newsletter - March 2005</a></li>
+        <li><a href="2008-34/EME/eme0504.pdf">EME Newsletter - April 2005</a></li>
+        <li><a href="2008-34/EME/eme0505.pdf">EME Newsletter - May 2005</a></li>
+        <li><a href="2008-34/EME/eme0506.pdf">EME Newsletter - June 2005</a></li>
+        <li><a href="2008-34/EME/eme0507.pdf">EME Newsletter - July 2005</a></li>
+        <li><a href="2008-34/EME/eme0508.pdf">EME Newsletter - August 2005</a></li>
+        <li><a href="2008-34/EME/eme0509.pdf">EME Newsletter - September 2005</a></li>
+        <li><a href="2008-34/EME/eme0509_2.pdf">EME Newsletter - September 2005 (Part 2)</a></li>
+        <li><a href="2008-34/EME/eme0510.pdf">EME Newsletter - October 2005</a></li>
+        <li><a href="2008-34/EME/eme0511.pdf">EME Newsletter - November 2005</a></li>
+        <li><a href="2008-34/EME/eme0512.pdf">EME Newsletter - December 2005</a></li>
+        <li><a href="2008-34/EME/eme0601.pdf">EME Newsletter - January 2006</a></li>
+        <li><a href="2008-34/EME/eme0602.pdf">EME Newsletter - February 2006</a></li>
+        <li><a href="2008-34/EME/eme0603.pdf">EME Newsletter - March 2006</a></li>
+        <li><a href="2008-34/EME/eme0604.pdf">EME Newsletter - April 2006</a></li>
+        <li><a href="2008-34/EME/eme0605.pdf">EME Newsletter - May 2006</a></li>
+        <li><a href="2008-34/EME/eme0606.pdf">EME Newsletter - June 2006</a></li>
+        <li><a href="2008-34/EME/eme0607.pdf">EME Newsletter - July 2006</a></li>
+        <li><a href="2008-34/EME/eme0608.pdf">EME Newsletter - August 2006</a></li>
+        <li><a href="2008-34/EME/eme0609.pdf">EME Newsletter - September 2006</a></li>
+        <li><a href="2008-34/EME/eme0610.pdf">EME Newsletter - October 2006</a></li>
+        <li><a href="2008-34/EME/eme0611.pdf">EME Newsletter - November 2006</a></li>
+        <li><a href="2008-34/EME/eme0612.pdf">EME Newsletter - December 2006</a></li>
+        <li><a href="2008-34/EME/eme0701.pdf">EME Newsletter - January 2007</a></li>
+        <li><a href="2008-34/EME/eme0702.pdf">EME Newsletter - February 2007</a></li>
+        <li><a href="2008-34/EME/eme0703.pdf">EME Newsletter - March 2007</a></li>
+        <li><a href="2008-34/EME/eme0704.pdf">EME Newsletter - April 2007</a></li>
+        <li><a href="2008-34/EME/eme0705.pdf">EME Newsletter - May 2007</a></li>
+        <li><a href="2008-34/EME/eme0706.pdf">EME Newsletter - June 2007</a></li>
+        <li><a href="2008-34/EME/eme0707.pdf">EME Newsletter - July 2007</a></li>
+        <li><a href="2008-34/EME/eme0708.pdf">EME Newsletter - August 2007</a></li>
+        <li><a href="2008-34/EME/eme0709.pdf">EME Newsletter - September 2007</a></li>
+        <li><a href="2008-34/EME/eme0710.pdf">EME Newsletter - October 2007</a></li>
+        <li><a href="2008-34/EME/eme0711.pdf">EME Newsletter - November 2007</a></li>
+        <li><a href="2008-34/EME/eme0712.pdf">EME Newsletter - December 2007</a></li>
+        <li><a href="2008-34/EME/eme0801.pdf">EME Newsletter - January 2008</a></li>
+        <li><a href="2008-34/EME/eme0802.pdf">EME Newsletter - February 2008</a></li>
+      </ul>
+    </div>
+
+    <div class="conference-year" id="year-2007">
+      <h2>33rd Eastern VHF/UHF/Microwave Conference (2007)</h2>
+      <p class="paper-count">58 papers</p>
+      <ul class="paper-list">
+        <li><a href="2007-33/Introduction/Intro.pdf">Conference Introduction</a></li>
+        <li><a href="2007-33/Introduction/committee.pdf">Conference Committee</a></li>
+        <li><a href="2007-33/Introduction/experience.pdf">Conference Experience</a><span class="author"> &mdash; Award</span></li>
+        <li><a href="2007-33/Introduction/trivia.pdf">Trivia Quiz</a><span class="author"> &mdash; Award</span></li>
+        <li><a href="2007-33/Introduction/kirby.pdf">Tom Kirby Award</a><span class="author"> &mdash; Award</span></li>
+        <li><a href="2007-33/Introduction/mud.jpg">Microwave Update 2007 (MUD)</a></li>
+        <li><a href="2007-33/Introduction/rat1.pdf">PackRat History</a></li>
+        <li><a href="2007-33/Introduction/rat2.jpg">PackRat RAT</a></li>
+        <li><a href="2007-33/Introduction/rat3.jpg">PackRat QSL</a></li>
+        <li><a href="2007-33/Technical_papers/beacon.pdf">VHF/UHF Beacon List</a></li>
+        <li><a href="2007-33/Technical_papers/quick.pdf">Quick &amp; Easy Transverter Enclosure</a></li>
+        <li><a href="2007-33/Technical_papers/dash.pdf">Dash Sender</a></li>
+        <li><a href="2007-33/Technical_papers/power.pdf">RF Power Reference</a></li>
+        <li><a href="2007-33/Technical_papers/modular.pdf">The Modular Rover</a></li>
+        <li><a href="2007-33/Technical_papers/rover.pdf">Roverbox</a></li>
+        <li><a href="2007-33/Technical_papers/feeds.pdf">VE4MA &amp; Chaparral Feeds with Septum
+Polarizers</a></li>
+        <li><a href="2007-33/Technical_papers/choke.pdf">Enhancing the OK1DFC Square Septum Feed with
+a Choke Ring</a></li>
+        <li><a href="2007-33/Technical_papers/dual.pdf">Optimized Dual-Mode Feedhorns</a></li>
+        <li><a href="2007-33/Technical_papers/edmund.pdf">Edmunds 1 Foot Dish for 47 &amp; 78 GHz</a></li>
+        <li><a href="2007-33/Technical_papers/imu.pdf">Constructing an IMU Horn for 78 GHz</a></li>
+        <li><a href="2007-33/Technical_presentations/qso.ppt">What�s a QSO Worth?</a></li>
+        <li><a href="2007-33/Technical_presentations/2EME.ppt">2 Meter EME</a></li>
+        <li><a href="2007-33/Technical_presentations/mt.ppt">Mt. Mansfield Consolidation Project</a></li>
+        <li><a href="2007-33/Technical_presentations/cheap.ppt">70 Watts Cheap on 2304 MHz</a></li>
+        <li><a href="2007-33/Technical_presentations/mentor.ppt">Mentoring Microwave Rovers</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/rf.pdf">RF Connectors</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/work.pdf">Workbench Aid</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/ft736.pdf">Modifying the Yaesu FT736R for Microwave
+Operation</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/10osc.pdf">An Auto Switching 10 MHz Oscillator</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/96synth.pdf">A 96 MHz Direct Frequency Synthesis
+Source</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/gasfet.pdf">GaAsFET Preamp Bias Board</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/mitsu.pdf">Using Mitsubishi Power Amplifier Modules</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/mitsu1.pdf">Mitsubishi RA18H1213G 23cm Amplifier</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/gps.pdf">GPS Display</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/lsynth.pdf">Simple and Cheerful L-Band Synthesiser</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/3.4Toshiba.pdf">A Check List for Putting the
+Toshiba 20 &amp; 40 watt, 3.4 GHz Linear</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/m0eyt.pdf">The M0EYT 5.7 GHz Transverter</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/5.7trans.pdf">Compact 5.7 GHz Transverter using NZ
+SSPA</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/optical.pdf">Optical Focusing and Alignment Method
+for Microwave Reflectors</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/dsn.pdf">8.4 GHz DSN Receiver</a></li>
+        <li><a href="2007-33/Scatterpoint_articles/24easy.pdf">24 GHz �Easy Build� Transverter</a></li>
+        <li><a href="2007-33/Microwave%20Workshop%20Presentations/Microwave%20Workshop%20-%20introduction%20to%20uWaves.ppt">Microwave
+Workshop - Introduction to uWaves</a></li>
+        <li><a href="2007-33/Microwave%20Workshop%20Presentations/Simple%2010GHz%20TX%20&amp;%20RX%20Equipment.ppt">Simple
+10GHz Equipment</a></li>
+        <li><a href="2007-33/Microwave%20Workshop%20Presentations/RealAntennas.ppt">Microwavers Use
+Real Antennas</a></li>
+        <li><a href="2007-33/Microwave%20Workshop%20Presentations/Transverters.ppt">Transverters</a></li>
+        <li><a href="2007-33/Microwave%20Workshop%20Presentations/Simple%20Test%20Equipment.ppt">Simple
+Test Equipment</a></li>
+        <li><a href="2007-33/Microwavelengths/microwavelengths.htm">Microwavelengths Columns from QST</a></li>
+        <li><a href="2007-33/UK%20Microwave%20Workshop/TELFORD%20WORKSHOP%20MARCH%202007/Page1.html">TELFORD
+WORKSHOP MARCH 2007</a></li>
+        <li><a href="2007-33/UK%20Microwave%20Workshop/MICROWAVE%20TEST%20GEAR">MICROWAVE TEST GEAR</a></li>
+        <li><a href="2007-33/UK%20Microwave%20Workshop/MODIFYING%20SAT%20TV%20GEAR%20FOR%2010GHz">MODIFYING
+SAT TV GEAR FOR 10GHz</a></li>
+        <li><a href="2007-33/UK%20Microwave%20Workshop/NARROWBAND%20GEAR">NARROWBAND GEAR</a></li>
+        <li><a href="2007-33/UK%20Microwave%20Workshop/OTHER%20PRESENTATIONS">OTHER PRESENTATIONS</a></li>
+        <li><a href="2007-33/UK%20Microwave%20Workshop/READY%20BUILT%20EQUIPMENT">READY BUILT
+EQUIPMENT</a></li>
+        <li><a href="2007-33/UK%20Microwave%20Workshop/SIMPLE%2010GHz%20GEAR/10GHz%20gunnplexer">SIMPLE
+10GHz GEAR</a></li>
+        <li><a href="2007-33/UK%20Microwave%20Workshop/SOFTWARE">SOFTWARE</a></li>
+        <li><a href="2007-33/UK%20Microwave%20Workshop/SCATTERPOINT%20MICROWAVE%20NEWSLETTER">SCATTERPOINT
+MICROWAVE NEWSLETTER</a></li>
+        <li><a href="2007-33/USA%20MICROWAVE%20UPDATE%20PAPERS/Proc_Table_of_Contents.htm">USA
+MICROWAVE UPDATE PAPERS</a></li>
+        <li><a href="2007-33/W1GHZ_Antenna_Book/">W1GHZ Microwave Antenna Book</a></li>
+      </ul>
+    </div>
+
+
+</div>
+
+<div class="footer">
+   <p style="text-align:center; color:#ccc;">Comments or suggestions to<br>
+     <strong><a href="mailto:webmaster@newsvhf.com?subject=NEWS GROUP WEBMASTER" style="text-decoration:none; color:#ccc;">News Group Webmaster</a></strong><br>
+     Copyright &copy; 1995-2026 North East Weak Signal Group
+   </p>
+</div>
+</div>
+
+</body>
+</html>
